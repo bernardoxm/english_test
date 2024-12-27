@@ -1,0 +1,1 @@
+ /Users/bmac/Documents/Projetos/english_test/.dart_tool/flutter_build/3070e786d35a40cbdb2ae0465cdcfdbc/native_assets.yaml: 
