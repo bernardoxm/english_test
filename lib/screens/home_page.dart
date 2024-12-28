@@ -86,9 +86,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                     onWordTap: _onWordTap, clickedWords: [], historyWords: [], onDelete: (String word) {  },
                   ),
                   FavoritesTab(
-                    favoriteWords: _favoriteWords,
-                    onRemoveFavorite: _removeWordFromFavorites,
-                    onWordTap: _onWordTap,
+                   
                   ),
                 ],
               ),

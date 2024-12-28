@@ -51,68 +51,65 @@ class _WordListTabState extends State<WordListTab> {
   }
 
   Widget _buildWordGrid() {
-    return Column(
-      children: [
-        const Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Text(
-            'Word List',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-          ),
+    return Scaffold(appBar:  AppBar(
+        title: const Text('Word List')),
+      body: Column(
+        children: [
+          
+          Expanded(
+            child: GridView.builder(
+              padding: const EdgeInsets.all(8.0),
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 3,
+                mainAxisSpacing: 8,
+                crossAxisSpacing: 8,
+                childAspectRatio: 2,
+              ),
+              itemCount: _wordList.length,
+              itemBuilder: (context, index) {
+                return ElevatedButton(
+                  onPressed: () async {
+                    final String selectedWord = _wordList[index];
+                    try {
+                      final Map<String, dynamic> wordDetails =
+                          await _apiWordService.fetchWordDetails(selectedWord);
+      
+                   showDialog(
+        context: context,
+        builder: (context) => ShowWordDetailsWidget(
+      word: selectedWord,
+      phonetics: wordDetails['phonetics'],
+      meanings: wordDetails['meanings'],
+      audioUrl: wordDetails['audio'],
+      wordList: _wordList, // Passa a lista de palavras
+      currentIndex: index, // Passa o índice atual
         ),
-        Expanded(
-          child: GridView.builder(
-            padding: const EdgeInsets.all(8.0),
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 3,
-              mainAxisSpacing: 8,
-              crossAxisSpacing: 8,
-              childAspectRatio: 2,
-            ),
-            itemCount: _wordList.length,
-            itemBuilder: (context, index) {
-              return ElevatedButton(
-                onPressed: () async {
-                  final String selectedWord = _wordList[index];
-                  try {
-                    final Map<String, dynamic> wordDetails =
-                        await _apiWordService.fetchWordDetails(selectedWord);
-
-                 showDialog(
-  context: context,
-  builder: (context) => ShowWordDetailsWidget(
-    word: selectedWord,
-    phonetics: wordDetails['phonetics'],
-    meanings: wordDetails['meanings'],
-    audioUrl: wordDetails['audio'],
-    wordList: _wordList, // Passa a lista de palavras
-    currentIndex: index, // Passa o índice atual
-  ),
-);
-
-                  } catch (e) {
-                    setState(() {
-                      _hasError = true;
-                      _errorMessage = e.toString();
-                    });
-                  }
-                },
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.all(8),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8),
+      );
+      
+                    } catch (e) {
+                      setState(() {
+                        _hasError = true;
+                        _errorMessage = e.toString();
+                      });
+                    }
+                  },
+                  style: ElevatedButton.styleFrom(
+                    padding: const EdgeInsets.all(8),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
                   ),
-                ),
-                child: Text(
-                  _wordList[index],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(fontSize: 14),
-                ),
-              );
-            },
+                  child: Text(
+                    _wordList[index],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 14),
+                  ),
+                );
+              },
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 

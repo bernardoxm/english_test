@@ -37,6 +37,7 @@ dependencies:
   http: ^1.2.2
   just_audio: ^0.9.42
   provider: ^6.1.2
+  sqflite: ^2.4.1
 
 dev_dependencies:
   flutter_test:

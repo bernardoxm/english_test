@@ -1,4 +1,5 @@
 import 'package:english_test/services/api_words_service.dart';
+import 'package:english_test/sql/sql_data_base.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 
@@ -26,6 +27,8 @@ class ShowWordDetailsWidget extends StatefulWidget {
 
 class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
   late final AudioPlayer _audioPlayer;
+  bool _isFavorite = false;
+
   late int _currentIndex;
   bool _isPlaying = false;
   bool _hasPlayed = false;
@@ -41,6 +44,14 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
       setState(() {
         _isPlaying = state.playing;
       });
+    });
+    _checkIfFavorite();
+  }
+
+  Future<void> _checkIfFavorite() async {
+    final favorites = await SqlDataBase().getFavorites();
+    setState(() {
+      _isFavorite = favorites.any((fav) => fav['word'] == widget.word);
     });
   }
 
@@ -108,6 +119,11 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+
+
+
+
+              
               Align(
                 alignment: Alignment.topRight,
                 child: IconButton(
@@ -115,16 +131,41 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
                   onPressed: () => Navigator.pop(context),
                 ),
               ),
+
+              
               const SizedBox(height: 16),
-              Text(
-                widget.word,
-                style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    widget.word,
+                    style: const TextStyle(
+                        fontSize: 24, fontWeight: FontWeight.bold),
+                  ),
+                  IconButton(
+                    icon: Icon(
+                      _isFavorite ? Icons.favorite : Icons.favorite_border,
+                      color: _isFavorite ? Colors.red : Colors.grey,
+                    ),
+                    onPressed: () async {
+                      setState(() {
+                        _isFavorite = !_isFavorite;
+                      });
+                      if (_isFavorite) {
+                        await SqlDataBase().insertFavorite(widget.word);
+                      } else {
+                        await SqlDataBase().deleteFavorite(widget.word);
+                      }
+                    },
+                  ),
+                ],
               ),
               const SizedBox(height: 8),
               if (widget.phonetics.isNotEmpty)
                 Text(
                   widget.phonetics,
-                  style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic),
+                  style: const TextStyle(
+                      fontSize: 18, fontStyle: FontStyle.italic),
                 ),
               const SizedBox(height: 16),
               if (hasAudio)
@@ -135,7 +176,8 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
                           ? const SizedBox(
                               height: 20,
                               width: 20,
-                              child: CircularProgressIndicator(color: Colors.black))
+                              child: CircularProgressIndicator(
+                                  color: Colors.black))
                           : Icon(
                               _isPlaying
                                   ? Icons.pause
@@ -184,8 +226,8 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
                               fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                         ...definitions.map<Widget>((definition) {
-                          final definitionText =
-                              definition['definition'] ?? 'No definition provided';
+                          final definitionText = definition['definition'] ??
+                              'No definition provided';
                           final exampleText = definition['example'] ?? '';
                           return Padding(
                             padding: const EdgeInsets.symmetric(vertical: 4.0),
@@ -211,6 +253,7 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
                 const Text('No meanings available.',
                     style: TextStyle(fontSize: 16)),
               const SizedBox(height: 16),
+              
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
