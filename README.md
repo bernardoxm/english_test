@@ -1,85 +1,98 @@
 # Mobile Challenge 20240202
 
-## Introdução
+## **Estrutura do Projeto**
 
-Este é um teste para que possamos ver as suas habilidades como Mobile Developer.
+### **Arquivos Principais**
+- **`main.dart`**: O ponto de entrada do aplicativo. Ele inicializa o Flutter e configura as dependências iniciais.
+- **`.DS_Store`**: Arquivo do macOS que pode ser ignorado ou removido.
 
-Nesse desafio você deverá desenvolver um aplicativo para listar palavras em inglês, utilizando como base a API [Free Dictionary API](https://dictionaryapi.dev/). O projeto a ser desenvolvido por você tem como objetivo exibir termos em inglês e gerenciar as palavras visualizadas, conforme indicado nos casos de uso que estão logo abaixo.
+### **Diretórios**
 
-[SPOILER] As instruções de entrega e apresentação do challenge estão no final deste Readme (=
+#### **`models/`**
+Contém as definições de modelos de dados utilizados no aplicativo.
+- **`words_model.dart`**: Define a estrutura de dados para "palavras", incluindo atributos e métodos relacionados.
 
-### Antes de começar
- 
-- Considere como deadline da avaliação a partir do início do teste. Caso tenha sido convidado a realizar o teste e não seja possível concluir dentro deste período, avise a pessoa que o convidou para receber instruções sobre o que fazer.
-- Documentar todo o processo de investigação para o desenvolvimento da atividade (README.md no seu repositório); os resultados destas tarefas são tão importantes do que o seu processo de pensamento e decisões à medida que as completa, por isso tente documentar e apresentar os seus hipóteses e decisões na medida do possível.
+#### **`providers/`**
+Diretório reservado para gerenciar o estado e fornecer dados para outras partes do aplicativo.
+- **Atualmente vazio**: Pode ser utilizado para implementar provedores de estado no futuro.
 
-### Instruções iniciais obrigatórias
+#### **`screens/`**
+Contém as telas principais do aplicativo.
+- **`home_page.dart`**: Define a página inicial, responsável por exibir as funcionalidades principais do aplicativo.
 
-- Utilize as seguintes tecnologias:
+#### **`services/`**
+Contém a lógica de negócios e serviços auxiliares.
+- **`api_words_service.dart`**: Implementa chamadas às APIs relacionadas à gestão e exibição de "palavras".
 
-#### Tecnologias (Mobile):
-- Nativo ou Hibrido (Flutter, Ionic, React Native, etc)
-- Estilização (Material, Semantic, etc). Ou escrever o seu próprio sob medida 👌
-- Gestão de dados (Redux, Context API, IndexedDB, SQLite, etc)
+#### **`sql/`**
+Gerencia a interação com o banco de dados local do aplicativo.
+- **`sql_data_base.dart`**: Contém a lógica para inicialização, leitura, escrita e gerenciamento de dados no banco SQL.
 
-Atente-se, ao desenvolver a aplicação mobile, para conceitos de usabilidade e adeque a interface com elementos visuais para os usuários do seu sistema.
+#### **`widgets/`**
+Inclui componentes reutilizáveis que podem ser utilizados em diversas partes do aplicativo.
+- **`error_load_widget.dart`**: Exibe mensagens de erro durante o carregamento de dados.
+- **`favorites_tab_widget.dart`**: Componente que representa a aba de "Favoritos".
+- **`history_tab_widget.dart`**: Componente que representa a aba de "Histórico".
+- **`show_words_details_widget.dart`**: Mostra os detalhes de uma palavra selecionada.
+- **`word_list_tab_widget.dart`**: Exibe uma lista de palavras organizadas por tabs.
 
-#### Tecnologias (Back-End):
-- Firebase, Supabase, etc
+## **Requisitos do Ambiente**
+Certifique-se de ter o seguinte configurado no seu ambiente antes de executar o projeto:
+- **Flutter SDK**: Versão mais recente.
+- **Dart**: Incluído no Flutter SDK.
+- **Editor**: Recomendado usar o Visual Studio Code ou Android Studio.
 
-#### Organização:
-- Aplicação de padrões Clean Code
-- Validação de chamadas assíncronas para evitar travamentos
+## **Como Rodar o Projeto**
+1. **Clone o repositório**:
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   ```
+2. **Navegue até o diretório do projeto**:
+   ```bash
+   cd <NOME_DO_DIRETORIO>
+   ```
+3. **Instale as dependências**:
+   ```bash
+   flutter pub get
+   ```
+4. **Execute o aplicativo**:
+   ```bash
+   flutter run
+   ```
 
-### Modelo de Dados:
+## **Contribuição**
+Contribuições são bem-vindas! Por favor, siga estas etapas:
+1. **Fork o repositório**.
+2. **Crie uma branch para sua modificação**:
+   ```bash
+   git checkout -b minha-modificacao
+   ```
+3. **Submeta um Pull Request com as alterações**.
 
-Conforme indicado na documentação da API, a API retorna as informações de uma palavra, tais como etimologia, sinônimos, exemplos de uso, etc. Utilize os campos indicados na documentação dos endpoints para obter os dados necessários.
- 
-### Front-End:
+**Licença**
+Este projeto está licenciado sob os termos descritos no arquivo LICENSE.md. Consulte o arquivo para mais informações.
+[LICENSE.md](https://github.com/user-attachments/files/18275078/LICENSE.md)MIT License
 
-Nessa etapa você deverá desenvolver uma aplicação móvel nativa ou hibrida para consumir a API do desafio.
+Copyright (c) 2024 [english\_test](https://github.com/bernardoxm/english_test)
 
-**Obrigatório 1** - Você deverá atender aos seguintes casos de uso:
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the "Software"), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:
 
-- Como usuário, devo ser capaz de visualizar uma lista de palavras com rolagem infinita
-- Como usuário, devo ser capaz de visualizar uma palavra, significados e a fonética
-- Como usuário, devo ser capaz de salvar a palavra como favorito
-- Como usuário, devo ser capaz de remover a palavra como favorito
-- Como usuário, devo ser capaz de visitar uma lista com as palavras que já vi anteriormente
+The above copyright notice and this permission notice shall be included in all  
+copies or substantial portions of the Software.
 
-A API não possui endpoint com a lista de palavras. Essa lista pode ser carregada em memória ou ser salva em banco de dados local ou remoto (por exemplo, com Firebase). Será necessário usar o [arquivo existente dentro do projeto no Github](https://github.com/dwyl/english-words/blob/master/words_dictionary.json).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
+SOFTWARE.  
 
-**Obrigatório 2** - Salvar em cache o resultado das requisições, para agilizar a resposta em caso de buscas com parâmetros repetidos.
 
-**Obrigatório 3** - Seguir o wireframe para a página de listagem dos dados. Pode-se alterar a posição dos itens, mantendo as funcionalidades solicitadas.
 
-<img src="./img/wireframe.png" width="100%" />
 
-**Diferencial 1** - Implementar um tocador de audio utilizando, por exemplo, https://responsivevoice.org/api ou recursos nativos;
-
-**Diferencial 2** - Utilizar alguma ferramenta de Injeção de Dependência;
-
-**Diferencial 3** - Escrever Unit Tests ou E2E Test. Escolher a melhor abordagem e biblioteca;
-
-**Diferencial 4** - Implementar login com usuário e senha e associar os favoritos e histórico ao ID do usuário, salvando essa informação em banco de dados local ou remoto
-## Readme do Repositório
-
-- Deve conter o título do projeto
-- Uma descrição sobre o projeto em frase
-- Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
-- Como instalar e usar o projeto (instruções)
-- Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh:  
-
->  This is a challenge by [Coodesh](https://coodesh.com/)
-
-## Finalização e Instruções para a Apresentação
-
-1. Adicione o link do repositório com a sua solução no teste
-2. Adicione o link da apresentação do seu projeto no README.md.
-3. Verifique se o Readme está bom e faça o commit final em seu repositório;
-4. Envie e aguarde as instruções para seguir. Sucesso e boa sorte. =)
-
-## Suporte
-
-Use a [nossa comunidade](https://discord.gg/rdXbEvjsWu) para tirar dúvidas sobre o processo ou envie uma mensagem diretamente a um especialista no chat da plataforma. 
