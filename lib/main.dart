@@ -1,14 +1,11 @@
-import 'package:english_test/providers/word_history_provider.dart';
 import 'package:english_test/screens/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(
-      create: (_) => WordHistoryProvider(),
-      child: const MyApp(),
-    ),
+   const MyApp(),
+   
   );
 }
 

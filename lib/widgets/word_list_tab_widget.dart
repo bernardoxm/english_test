@@ -1,20 +1,23 @@
 import 'dart:convert';
 import 'package:english_test/services/api_words_service.dart';
+import 'package:english_test/sql/sql_data_base.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
- // Importa o serviço
 import 'error_load_widget.dart';
 import 'show_words_details_widget.dart';
 
 class WordListTab extends StatefulWidget {
-  const WordListTab({Key? key, required void Function(String word, Map<String, dynamic> wordDetails) onWordTap}) : super(key: key);
+  const WordListTab(
+      {super.key,
+      required void Function(String word, Map<String, dynamic> wordDetails)
+          onWordTap});
 
   @override
   State<WordListTab> createState() => _WordListTabState();
 }
 
 class _WordListTabState extends State<WordListTab> {
-  final ApiWordService _apiWordService = ApiWordService(); //chamar api
+  final ApiWordService _apiWordService = ApiWordService();
   List<String> _wordList = [];
   bool _isLoading = false;
   bool _hasError = false;
@@ -33,7 +36,8 @@ class _WordListTabState extends State<WordListTab> {
     });
 
     try {
-      final String jsonString = await rootBundle.loadString('assets/words/words.json'); // words.json assets, chamar todas as pala
+      final String jsonString =
+          await rootBundle.loadString('assets/words/words.json');
       final List<dynamic> jsonList = jsonDecode(jsonString);
       setState(() {
         _wordList = jsonList.cast<String>();
@@ -51,11 +55,10 @@ class _WordListTabState extends State<WordListTab> {
   }
 
   Widget _buildWordGrid() {
-    return Scaffold(appBar:  AppBar(
-        title: const Text('Word List')),
+    return Scaffold(
+      appBar: AppBar(title: const Text('Word List')),
       body: Column(
         children: [
-          
           Expanded(
             child: GridView.builder(
               padding: const EdgeInsets.all(8.0),
@@ -73,20 +76,28 @@ class _WordListTabState extends State<WordListTab> {
                     try {
                       final Map<String, dynamic> wordDetails =
                           await _apiWordService.fetchWordDetails(selectedWord);
-      
-                   showDialog(
-        context: context,
-        builder: (context) => ShowWordDetailsWidget(
-      word: selectedWord,
-      phonetics: wordDetails['phonetics'],
-      meanings: wordDetails['meanings'],
-      audioUrl: wordDetails['audio'],
-      wordList: _wordList, // Passa a lista de palavras
-      currentIndex: index, // Passa o índice atual
-        ),
-      );
-      
-                    } catch (e) {
+
+                      print('Word details fetched: $wordDetails');
+
+                      final db = SqlDataBase();
+                      await db.insertHistory(selectedWord);
+                      print('Word inserted into history');
+
+                      showDialog(
+                        context: context,
+                        builder: (context) => ShowWordDetails(
+                          word: selectedWord,
+                          phonetics: wordDetails['phonetics'] ?? [],
+                          meanings: wordDetails['meanings'] ?? [],
+                          audioUrl: wordDetails['audio'] ?? '',
+                          wordList: _wordList,
+                          currentIndex: index,
+                        ),
+                      );
+                    } catch (e, stackTrace) {
+                      print('Error occurred: $e');
+                      print('Stack trace: $stackTrace');
+
                       setState(() {
                         _hasError = true;
                         _errorMessage = e.toString();

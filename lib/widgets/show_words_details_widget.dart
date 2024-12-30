@@ -3,7 +3,7 @@ import 'package:english_test/sql/sql_data_base.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 
-class ShowWordDetailsWidget extends StatefulWidget {
+class ShowWordDetails extends StatefulWidget {
   final String word;
   final String phonetics;
   final List<dynamic> meanings;
@@ -11,7 +11,7 @@ class ShowWordDetailsWidget extends StatefulWidget {
   final List<String> wordList;
   final int currentIndex;
 
-  const ShowWordDetailsWidget({
+  const ShowWordDetails({
     Key? key,
     required this.word,
     required this.phonetics,
@@ -22,10 +22,10 @@ class ShowWordDetailsWidget extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  State<ShowWordDetailsWidget> createState() => _ShowWordDetailsWidgetState();
+  State<ShowWordDetails> createState() => _ShowWordDetailsState();
 }
 
-class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
+class _ShowWordDetailsState extends State<ShowWordDetails> {
   late final AudioPlayer _audioPlayer;
   bool _isFavorite = false;
 
@@ -88,10 +88,21 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
     try {
       final wordDetails = await ApiWordService().fetchWordDetails(newWord);
 
-      Navigator.of(context).pop(); // Fecha o diálogo atual
+      // Salvar no histórico
+      await SqlDataBase().insertHistory(newWord);
+
+      // Salvar nos favoritos automaticamente
+      final db = SqlDataBase();
+      final favorites = await db.getFavorites();
+      final isAlreadyFavorite = favorites.any((fav) => fav['word'] == newWord);
+      if (!isAlreadyFavorite) {
+        await db.insertFavorite(newWord);
+      }
+
+      Navigator.of(context).pop(); // Fechar o diálogo atual
       showDialog(
         context: context,
-        builder: (context) => ShowWordDetailsWidget(
+        builder: (context) => ShowWordDetails(
           word: newWord,
           phonetics: wordDetails['phonetics'],
           meanings: wordDetails['meanings'],
@@ -119,11 +130,6 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-
-
-
-
-              
               Align(
                 alignment: Alignment.topRight,
                 child: IconButton(
@@ -131,8 +137,6 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
                   onPressed: () => Navigator.pop(context),
                 ),
               ),
-
-              
               const SizedBox(height: 16),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -253,7 +257,6 @@ class _ShowWordDetailsWidgetState extends State<ShowWordDetailsWidget> {
                 const Text('No meanings available.',
                     style: TextStyle(fontSize: 16)),
               const SizedBox(height: 16),
-              
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

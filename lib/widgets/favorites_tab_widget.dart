@@ -37,13 +37,14 @@ class _FavoritesTabState extends State<FavoritesTab> {
 
       if (wordDetails != null) {
         showDialog(
+          // ignore: use_build_context_synchronously
           context: context,
-          builder: (context) => ShowWordDetailsWidget(
+          builder: (context) => ShowWordDetails(
             word: word,
             phonetics: wordDetails['phonetics'] ?? '',
             meanings: wordDetails['meanings'] ?? [],
             audioUrl: wordDetails['audio'] ?? '',
-            wordList: _favorites, // Passa a lista de favoritos para navegação
+            wordList: _favorites,
             currentIndex: _favorites.indexOf(word),
           ),
         );
@@ -62,8 +63,8 @@ class _FavoritesTabState extends State<FavoritesTab> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Favorites'),
+      appBar: AppBar(centerTitle: true,
+        title: const Text('Favorites',),
       ),
       body: _favorites.isEmpty
           ? const Center(child: Text('No favorites yet!'))

@@ -62,19 +62,17 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
+        child: Column( mainAxisAlignment:  MainAxisAlignment.center,
           children: [
-            Container(
-           
-              child: TabBar(
-                controller: _tabController,
-               
-                tabs: const [
-                  Tab(text: 'Word List'),
-                  Tab(text: 'History'),
-                  Tab(text: 'Favorites'),
-                ],
-              ),
+            TabBar(
+              labelStyle: TextStyle(fontSize: 23),
+              controller: _tabController,
+             
+              tabs: const [
+                Tab(text: 'Word List',),
+                Tab(text: 'History'),
+                Tab(text: 'Favorites'),
+              ],
             ),
             Expanded(
               child: TabBarView(
@@ -83,7 +81,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                   WordListTab(onWordTap: (String word, Map<String, dynamic> wordDetails) {  },),
                   HistoryTab(
                  
-                    onWordTap: _onWordTap, clickedWords: [], historyWords: [], onDelete: (String word) {  },
+                  
                   ),
                   FavoritesTab(
                    
