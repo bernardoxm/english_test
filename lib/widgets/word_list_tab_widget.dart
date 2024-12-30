@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:english_test/services/api_words_service.dart';
 import 'package:english_test/sql/sql_data_base.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'error_load_widget.dart';
@@ -77,13 +78,16 @@ class _WordListTabState extends State<WordListTab> {
                       final Map<String, dynamic> wordDetails =
                           await _apiWordService.fetchWordDetails(selectedWord);
 
-                      print('Word details fetched: $wordDetails');
+                      if (kDebugMode) {
+                        print('Word details fetched: $wordDetails');
+                      }
 
                       final db = SqlDataBase();
                       await db.insertHistory(selectedWord);
-                      print('Word inserted into history');
-
+                    
+                     
                       showDialog(
+                        // ignore: use_build_context_synchronously
                         context: context,
                         builder: (context) => ShowWordDetails(
                           word: selectedWord,
@@ -95,8 +99,10 @@ class _WordListTabState extends State<WordListTab> {
                         ),
                       );
                     } catch (e, stackTrace) {
-                      print('Error occurred: $e');
-                      print('Stack trace: $stackTrace');
+                      if (kDebugMode) {
+                        print('Error occurred: $e'); print('Stack trace: $stackTrace');
+                      }
+                     
 
                       setState(() {
                         _hasError = true;

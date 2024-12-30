@@ -1,4 +1,4 @@
-import 'package:english_test/screens/home_page.dart';
+
 import 'package:english_test/widgets/favorites_tab_widget.dart';
 import 'package:english_test/widgets/history_tab_widget.dart';
 import 'package:english_test/widgets/word_list_tab_widget.dart';
@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -15,8 +15,8 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
   late TabController _tabController;
-  final List<String> _historyWords = ['hello', 'world', 'flutter', 'dart', 'coding'];
-  final List<String> _favoriteWords = ['hello', 'flutter']; 
+  final List<String> _historyWords = [];
+  final List<String> _favoriteWords = []; 
 
   @override
   void initState() {
@@ -30,18 +30,21 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     super.dispose();
   }
 
+  // ignore: unused_element
   void _deleteWordFromHistory(String word) {
     setState(() {
       _historyWords.remove(word);
     });
   }
 
+  // ignore: unused_element
   void _removeWordFromFavorites(String word) {
     setState(() {
       _favoriteWords.remove(word);
     });
   }
 
+  // ignore: unused_element
   void _onWordTap(String word) {
     showDialog(
       context: context,
@@ -65,7 +68,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         child: Column( mainAxisAlignment:  MainAxisAlignment.center,
           children: [
             TabBar(
-              labelStyle: TextStyle(fontSize: 23),
+              labelStyle: TextStyle(fontSize: MediaQuery.of(context).size.width * 0.05),
               controller: _tabController,
              
               tabs: const [

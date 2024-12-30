@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
 class ApiWordService {
@@ -20,7 +21,9 @@ class ApiWordService {
             ? (wordData['phonetics'][0]['audio'] ?? '')
             : '';
         final List<dynamic> meanings = wordData['meanings'] ?? [];
-print(audio);
+if (kDebugMode) {
+  print(audio);
+}
         return {
           'word': wordData['word'] ?? word,
           'phonetics': phonetics,

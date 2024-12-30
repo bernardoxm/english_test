@@ -96,7 +96,7 @@ class SqlDataBase {
     }
   }
 
-  // Função para excluir uma palavra do histórico
+
   Future<void> deleteFromHistory(String word) async {
     final db = await database;
     final result = await db.delete('history', where: 'word = ?', whereArgs: [word]);
@@ -105,7 +105,7 @@ class SqlDataBase {
     }
   }
 
-  // Função para excluir uma palavra dos favoritos
+
   Future<void> deleteFavorite(String word) async {
     final db = await database;
     final result = await db.delete('favorites', where: 'word = ?', whereArgs: [word]);
@@ -114,19 +114,19 @@ class SqlDataBase {
     }
   }
 
-  // Função para recuperar o histórico
+
   Future<List<Map<String, dynamic>>> getHistory() async {
     final db = await database;
     return await db.query('history', orderBy: 'viewedAt DESC');
   }
 
-  // Função para recuperar os favoritos
+
   Future<List<Map<String, dynamic>>> getFavorites() async {
     final db = await database;
     return await db.query('favorites', where: 'isFavorite = ?', whereArgs: [1]);
   }
 
-  // Função para limpar o histórico
+
   Future<void> clearHistory() async {
     final db = await database;
     await db.delete('history');

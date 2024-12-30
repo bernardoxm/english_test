@@ -5,7 +5,10 @@ import 'package:english_test/services/api_words_service.dart';
 
 
 class FavoritesTab extends StatefulWidget {
+  const FavoritesTab({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _FavoritesTabState createState() => _FavoritesTabState();
 }
 
@@ -35,6 +38,7 @@ class _FavoritesTabState extends State<FavoritesTab> {
     try {
       final wordDetails = await ApiWordService().fetchWordDetails(word);
 
+      // ignore: unnecessary_null_comparison
       if (wordDetails != null) {
         showDialog(
           // ignore: use_build_context_synchronously
@@ -49,11 +53,13 @@ class _FavoritesTabState extends State<FavoritesTab> {
           ),
         );
       } else {
+        // ignore: use_build_context_synchronously
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Details for "$word" not found.')),
         );
       }
     } catch (e) {
+      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Failed to load details: $e')),
       );

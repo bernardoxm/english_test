@@ -7,6 +7,7 @@ class HistoryTab extends StatefulWidget {
   const HistoryTab({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _HistoryTabState createState() => _HistoryTabState();
 }
 
@@ -36,6 +37,7 @@ class _HistoryTabState extends State<HistoryTab> {
     try {
       final wordDetails = await ApiWordService().fetchWordDetails(word);
 
+      // ignore: unnecessary_null_comparison
       if (wordDetails != null) {
         showDialog(
           // ignore: use_build_context_synchronously
@@ -50,11 +52,13 @@ class _HistoryTabState extends State<HistoryTab> {
           ),
         );
       } else {
+        // ignore: use_build_context_synchronously
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Details for "$word" not found.')),
         );
       }
     } catch (e) {
+      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Failed to load details: $e')),
       );

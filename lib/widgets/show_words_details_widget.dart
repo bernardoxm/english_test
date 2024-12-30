@@ -12,14 +12,14 @@ class ShowWordDetails extends StatefulWidget {
   final int currentIndex;
 
   const ShowWordDetails({
-    Key? key,
+    super.key,
     required this.word,
     required this.phonetics,
     required this.meanings,
     required this.audioUrl,
     required this.wordList,
     required this.currentIndex,
-  }) : super(key: key);
+  });
 
   @override
   State<ShowWordDetails> createState() => _ShowWordDetailsState();
@@ -99,8 +99,10 @@ class _ShowWordDetailsState extends State<ShowWordDetails> {
         await db.insertFavorite(newWord);
       }
 
+      // ignore: use_build_context_synchronously
       Navigator.of(context).pop(); // Fechar o diálogo atual
       showDialog(
+        // ignore: use_build_context_synchronously
         context: context,
         builder: (context) => ShowWordDetails(
           word: newWord,
@@ -112,6 +114,7 @@ class _ShowWordDetailsState extends State<ShowWordDetails> {
         ),
       );
     } catch (e) {
+      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Failed to load word details: $e')),
       );
