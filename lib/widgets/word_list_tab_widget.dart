@@ -56,7 +56,7 @@ class _WordListTabState extends State<WordListTab> {
 
   Widget _buildWordGrid() {
     return Scaffold(
-      appBar: AppBar(title: const Text('Word List')),
+      appBar: AppBar(centerTitle: true,title: const Text('Word List')),
       body: Column(
         children: [
           Expanded(
