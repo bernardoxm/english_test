@@ -81,7 +81,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
               child: TabBarView(
                 controller: _tabController,
                 children: [
-                  WordListTab(onWordTap: (String word, Map<String, dynamic> wordDetails) {  },),
+                  WordListTab(),
                   HistoryTab(
                  
                   

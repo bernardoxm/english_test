@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.english_test.app-mergeDebugResources-26:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.devb.english_test.app-mergeDebugResources-26:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\b\\.gradle\\caches\\transforms-3\\889ae3adf7a24645889ee22f4dad2cac\\transformed\\core-1.13.1\\res\\values-zh-rHK\\values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,246,340,434,527,620,716",
-                        "endColumns": "91,98,93,93,92,92,95,100",
-                        "endOffsets": "142,241,335,429,522,615,711,812"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,18",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,246,340,434,527,620,1274",
-                        "endColumns": "91,98,93,93,92,92,95,100",
-                        "endOffsets": "142,241,335,429,522,615,711,1370"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\b\\.gradle\\caches\\transforms-3\\461687305acfa4c302fd8a72a94672a3\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "/Users/bmac/.gradle/caches/transforms-3/cac3bbb7a2a529f61d5a93d9cb50759b/transformed/jetified-exoplayer-core-2.18.7/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "716,772,828,886,939,1011,1065,1139,1215",
                         "endColumns": "55,55,57,52,71,53,73,75,58",
                         "endOffsets": "767,823,881,934,1006,1060,1134,1210,1269"
+                    }
+                },
+                {
+                    "source": "/Users/bmac/.gradle/caches/transforms-3/74c1895ee15d4a639000e095e1132bc7/transformed/core-1.13.1/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,716",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,812"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,18",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,1274",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,1370"
                     }
                 }
             ]

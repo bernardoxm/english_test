@@ -1,0 +1,2 @@
+/Users/bmac/Documents/Trabalho/english_test/android/app/.cxx/RelWithDebInfo/1232211w/x86_64/CMakeFiles/edit_cache.dir
+/Users/bmac/Documents/Trabalho/english_test/android/app/.cxx/RelWithDebInfo/1232211w/x86_64/CMakeFiles/rebuild_cache.dir

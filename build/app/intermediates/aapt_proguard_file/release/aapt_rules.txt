@@ -2,4 +2,4 @@
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
--keep class com.example.english_test.MainActivity { <init>(); }
+-keep class com.devb.english_test.MainActivity { <init>(); }

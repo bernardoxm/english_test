@@ -114,6 +114,12 @@ class SqlDataBase {
     }
   }
 
+   Future<void> deleteallFavorite() async {
+        final db = await database;
+    await db.delete('favorites');
+  }
+
+
 
   Future<List<Map<String, dynamic>>> getHistory() async {
     final db = await database;
@@ -131,4 +137,13 @@ class SqlDataBase {
     final db = await database;
     await db.delete('history');
   }
+
+  Future<void> clearHistoryOnly(String word) async {
+  final db = await database;
+  await db.delete(
+    'history',
+    where: 'word = ?',
+    whereArgs: [word],
+  );
+}
 }

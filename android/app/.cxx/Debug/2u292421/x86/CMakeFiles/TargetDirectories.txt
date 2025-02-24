@@ -1,0 +1,2 @@
+/Users/bmac/Documents/Trabalho/english_test/android/app/.cxx/Debug/2u292421/x86/CMakeFiles/edit_cache.dir
+/Users/bmac/Documents/Trabalho/english_test/android/app/.cxx/Debug/2u292421/x86/CMakeFiles/rebuild_cache.dir

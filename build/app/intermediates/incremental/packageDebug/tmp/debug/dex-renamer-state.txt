@@ -1,15 +1,15 @@
-#Mon Dec 30 11:00:08 BRT 2024
-base.0=C\:\\Users\\b\\Documents\\GitHub\\english_test\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\b\\Documents\\GitHub\\english_test\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\b\\Documents\\GitHub\\english_test\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.3=C\:\\Users\\b\\Documents\\GitHub\\english_test\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.4=C\:\\Users\\b\\Documents\\GitHub\\english_test\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.5=C\:\\Users\\b\\Documents\\GitHub\\english_test\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Mon Feb 24 03:13:40 BRT 2025
+base.0=/Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.2=/Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.4=/Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
+base.5=/Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex
-path.3=10/classes.dex
-path.4=1/classes.dex
+path.3=1/classes.dex
+path.4=4/classes.dex
 path.5=classes2.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex

@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.english_test.app-mergeDebugResources-26:/values-sv/values-sv.xml",
+            "outputFile": "com.devb.english_test.app-mergeDebugResources-26:/values-sv/values-sv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\b\\.gradle\\caches\\transforms-3\\889ae3adf7a24645889ee22f4dad2cac\\transformed\\core-1.13.1\\res\\values-sv\\values-sv.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,150,252,350,449,557,662,783",
-                        "endColumns": "94,101,97,98,107,104,120,100",
-                        "endOffsets": "145,247,345,444,552,657,778,879"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,18",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,150,252,350,449,557,662,1466",
-                        "endColumns": "94,101,97,98,107,104,120,100",
-                        "endOffsets": "145,247,345,444,552,657,778,1562"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\b\\.gradle\\caches\\transforms-3\\461687305acfa4c302fd8a72a94672a3\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-sv\\values-sv.xml",
+                    "source": "/Users/bmac/.gradle/caches/transforms-3/cac3bbb7a2a529f61d5a93d9cb50759b/transformed/jetified-exoplayer-core-2.18.7/res/values-sv/values-sv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "783,856,919,983,1058,1139,1213,1307,1393",
                         "endColumns": "72,62,63,74,80,73,93,85,72",
                         "endOffsets": "851,914,978,1053,1134,1208,1302,1388,1461"
+                    }
+                },
+                {
+                    "source": "/Users/bmac/.gradle/caches/transforms-3/74c1895ee15d4a639000e095e1132bc7/transformed/core-1.13.1/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,350,449,557,662,783",
+                        "endColumns": "94,101,97,98,107,104,120,100",
+                        "endOffsets": "145,247,345,444,552,657,778,879"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,18",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,350,449,557,662,1466",
+                        "endColumns": "94,101,97,98,107,104,120,100",
+                        "endOffsets": "145,247,345,444,552,657,778,1562"
                     }
                 }
             ]

@@ -1,3 +1,4 @@
+import 'package:english_test/controller/hist_controller.dart';
 import 'package:english_test/sql/sql_data_base.dart';
 import 'package:english_test/widgets/show_words_details_widget.dart';
 import 'package:flutter/material.dart';
@@ -12,92 +13,57 @@ class HistoryTab extends StatefulWidget {
 }
 
 class _HistoryTabState extends State<HistoryTab> {
-  final SqlDataBase _db = SqlDataBase();
-  List<Map<String, dynamic>> _history = [];
+  final HistController _histController = HistController();
 
   @override
   void initState() {
     super.initState();
-    _loadHistory();
-  }
-
-  Future<void> _loadHistory() async {
-    final history = await _db.getHistory();
-    setState(() {
-      _history = history;
-    });
-  }
-
-  Future<void> _removeHistoryEntry(String word) async {
-    await _db.clearHistory();
-    _loadHistory();
-  }
-
-  Future<void> _showWordDetails(String word) async {
-    try {
-      final wordDetails = await ApiWordService().fetchWordDetails(word);
-
-      // ignore: unnecessary_null_comparison
-      if (wordDetails != null) {
-        showDialog(
-          // ignore: use_build_context_synchronously
-          context: context,
-          builder: (context) => ShowWordDetails(
-            word: word,
-            phonetics: wordDetails['phonetics'] ?? '',
-            meanings: wordDetails['meanings'] ?? [],
-            audioUrl: wordDetails['audio'] ?? '',
-            wordList: _history.map((e) => e['word'] as String).toList(),
-            currentIndex: _history.indexWhere((e) => e['word'] == word),
-          ),
-        );
-      } else {
-        // ignore: use_build_context_synchronously
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Details for "$word" not found.')),
-        );
-      }
-    } catch (e) {
-      // ignore: use_build_context_synchronously
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Failed to load details: $e')),
-      );
-    }
+    _histController.loadHistory();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(centerTitle: true,
-        title: const Text('History'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.delete),
-            onPressed: () => _removeHistoryEntry(""), // Remove todo o histórico
+    return ListenableBuilder(
+      listenable: _histController.historyList,
+      builder: (BuildContext context, Widget? child) {
+        return Scaffold(
+          appBar: AppBar(
+            centerTitle: true,
+            title: const Text('History'),
+            actions: [
+              IconButton(
+                icon: const Icon(Icons.delete),
+                onPressed: () => _histController
+                    .removeHistoryEntry(""), // Remove todo o histórico
+              ),
+            ],
           ),
-        ],
-      ),
-      body: _history.isEmpty
-          ? const Center(child: Text('No history available'))
-          : ListView.builder(
-              itemCount: _history.length,
-              itemBuilder: (context, index) {
-                final word = _history[index]['word'];
-                return Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: ElevatedButton(
-                    onPressed: () => _showWordDetails(word),
-                    child: ListTile(
-                      title: Text(word),
-                      trailing: IconButton(
-                        icon: const Icon(Icons.delete, color: Colors.red),
-                        onPressed: () => _removeHistoryEntry(word),
+          body: _histController.historyList.value.isEmpty
+              ? const Center(child: Text('No history available'))
+              : ListView.builder(
+                  itemCount: _histController.historyList.value.length,
+                  itemBuilder: (context, index) {
+                    final word =
+                        _histController.historyList.value[index]['word'];
+                    return Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: ElevatedButton(
+                        onPressed: () =>
+                            _histController.showWordDetails(context, word),
+                        child: ListTile(
+                          title: Text(word),
+                          trailing: IconButton(
+                            icon: const Icon(Icons.delete, color: Colors.red),
+                            onPressed: () =>
+                                _histController.removeHistoryEntryOnly(word),
+                          ),
+                        ),
                       ),
-                    ),
-                  ),
-                );
-              },
-            ),
+                    );
+                  },
+                ),
+        );
+      },
     );
   }
 }

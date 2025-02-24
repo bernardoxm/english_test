@@ -1,11 +1,30 @@
 import 'dart:convert';
+import 'package:english_test/models/words_model.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 
 class ApiWordService {
-  final String _baseUrl = 'https://api.dictionaryapi.dev/api/v2/entries/en';
+  static const String _baseUrl = 'https://api.dictionaryapi.dev/api/v2/entries/en';
 
-  Future<Map<String, dynamic>> fetchWordDetails(String word) async {
+  /// **📥 Carrega a lista do JSON local (se não houver API para isso)**
+  Future<List<String>> fetchWordList() async {
+    try {
+      final String jsonString = await rootBundle.loadString('assets/words/words.json');
+      final dynamic decodedJson = jsonDecode(jsonString);
+
+      if (decodedJson is List && decodedJson.every((item) => item is String)) {
+        return List<String>.from(decodedJson);
+      } else {
+        throw Exception("Formato do JSON inválido!");
+      }
+    } catch (error) {
+      throw Exception('Erro ao carregar lista de palavras: ${error.toString()}');
+    }
+  }
+
+  /// **📖 Busca detalhes da palavra na API**
+  Future<WordsModel> fetchWordDetails(String word) async {
     try {
       final url = Uri.parse('$_baseUrl/$word');
       final response = await http.get(url);
@@ -14,29 +33,33 @@ class ApiWordService {
         final List<dynamic> data = jsonDecode(response.body);
         final Map<String, dynamic> wordData = data.first;
 
-        final String phonetics = (wordData['phonetics'] as List).isNotEmpty
-            ? (wordData['phonetics'][0]['text'] ?? '')
-            : 'Not available';
-        final String audio = (wordData['phonetics'] as List).isNotEmpty
+        final List<dynamic>? phoneticsList = wordData['phonetics'] as List<dynamic>?;
+        final String phonetics = (phoneticsList != null && phoneticsList.isNotEmpty)
+            ? (phoneticsList[0]['text'] ?? '')
+            : '';
+        final String audio = (wordData['phonetics'] != null && (wordData['phonetics'] as List).isNotEmpty)
             ? (wordData['phonetics'][0]['audio'] ?? '')
             : '';
-        final List<dynamic> meanings = wordData['meanings'] ?? [];
-if (kDebugMode) {
-  print(audio);
-}
-        return {
-          'word': wordData['word'] ?? word,
-          'phonetics': phonetics,
-          'audio': audio.startsWith('http') ? audio : 'https:$audio',
-          'meanings': meanings,
-          
-        };
-        
+        final List<dynamic> meanings = wordData['meanings'] as List<dynamic>? ?? [];
+
+        if (kDebugMode) {
+          print(audio);
+        }
+
+        return WordsModel(
+          word: wordData['word'] ?? word,
+          phonetics: phonetics,
+          audioUrl: audio.isNotEmpty ? (audio.startsWith('http') ? audio : 'https:$audio') : '',
+          meanings: meanings
+              .expand((meaning) => (meaning['definitions'] as List)
+                  .map((definition) => definition['definition'].toString()))
+              .toList(),
+        );
       } else {
-        throw Exception('Failed to fetch details for word: $word');
+        throw Exception('Palavra não encontrada: $word. Código: ${response.statusCode}');
       }
     } catch (error) {
-      throw Exception('Error fetching word details: $error');
+      throw Exception('Erro ao buscar detalhes: ${error.toString()}');
     }
   }
 }

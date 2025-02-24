@@ -1,6 +1,6 @@
-Marking string:androidx_startup:2131427328 reachable: referenced from C:\Users\b\Documents\GitHub\english_test\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_window_insets_animation_callback:2131165272 reachable: referenced from C:\Users\b\Documents\GitHub\english_test\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tag_on_apply_window_listener:2131165264 reachable: referenced from C:\Users\b\Documents\GitHub\english_test\build\app\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:androidx_startup:2131427328 reachable: referenced from base/dex/classes.dex
+Marking id:tag_window_insets_animation_callback:2131165272 reachable: referenced from base/dex/classes.dex
+Marking id:tag_on_apply_window_listener:2131165264 reachable: referenced from base/dex/classes.dex
 android.content.res.Resources#getIdentifier present: true
 Web content present: false
 Referenced Strings:
@@ -154,8 +154,8 @@ manning
 OMX.qcom.audio.decoder.mp3
 requestAudioFocus
 addWindowLayoutInfoListener
-enable_state_restoration
 COMPLETING_WAITING_CHILDREN
+enable_state_restoration
 RESULT_BASELINE_PROFILE_NOT_FOUND
 _invoked
 SegmentList
@@ -214,8 +214,8 @@ Rave
 OMX.SEC.avc.dec.secure
 per
 write
-onStop
 flow
+onStop
 byte
 urn:mpeg:dash:mp4protection:2011
 STYLE
@@ -224,9 +224,9 @@ Cea708Decoder
 Loader:HlsSampleStreamWrapper
 eia608
 PesReader
-creditCardNumber
 TSSE
 resizeUp
+creditCardNumber
 burlywood
 :Item
 cmd
@@ -236,8 +236,8 @@ Baroque
 pink
 wait
 FlutterActivityAndFragmentDelegate
-birthDateYear
 .aac
+birthDateYear
 OMX.broadcom.video_decoder.tunnel
 cmn
 %s.%sParcelizer
@@ -376,8 +376,8 @@ baffin
 forbidden
 ExoPlayer:MediaCodecAsyncAdapter:
 windowToken
-onTrimMemory
 teal
+onTrimMemory
 getSourceNodeId
 urn:dts:dash:audio_channel_configurat...
 video/mpeg
@@ -457,8 +457,8 @@ COMPLETING_RETRY
 audio:
 lightslategrey
 USAGE_ASSISTANT
-heb
 TextInput.clearClient
+heb
 A_DTS
 TVSHOWSORT
 SCROLL_RIGHT
@@ -530,8 +530,8 @@ KeyEventChannel
 android.support.v13.view.inputmethod....
 producerIndex
 flutter/settings
-addressLocality
 WavHeaderReader
+addressLocality
 androidLoudnessEnhancerSetTargetGain
 lightpink
 audio/mhm1
@@ -539,8 +539,8 @@ minPossibleLiveOffsetSmoothingFactor
 DeviceOrientation.landscapeLeft
 application/vobsub
 .immediate
-TextInputAction.unspecified
 isSink
+TextInputAction.unspecified
 woods_f
 char
 TAG
@@ -585,8 +585,8 @@ Clipboard.setData
 messageData
 Cea608Decoder
 udp
-TextInputType.phone
 TextInput.sendAppPrivateCommand
+TextInputType.phone
 unexpectedEndOfInput
 CLOSED
 Accessibility
@@ -661,8 +661,8 @@ channelIndexMasks
 guava.concurrent.generate_cancellatio...
 TPE2
 TPE1
-GMT
 SystemNavigator.setFrameworkHandlesBack
+GMT
 android.media.metadata.ALBUM
 ON_PAUSE
 route
@@ -700,8 +700,8 @@ Ambient
 hintText
 OMX.google
 TCMP
-personNamePrefix
 widevine
+personNamePrefix
 toString
 NO_UNSUPPORTED_TYPE
 under
@@ -760,8 +760,8 @@ duration
 omx.google.
 kotlin.collections.Map
 aliceblue
-cached_engine_group_id
 ProcessText.queryTextActions
+cached_engine_group_id
 load
 hashCode
 ProfileInstaller
@@ -819,9 +819,9 @@ V_MPEG4/ISO/ASP
 SsaDecoder
 primary.prof
 io.flutter.embedding.android.EnableOp...
-signed
 filepositions
 http://ns.adobe.com/xap/1.0/
+signed
 WebvttCueParser
 FlutterView
 TP1
@@ -938,11 +938,13 @@ DONE_RCV
 android.support.v4.media.description....
 Clipboard.getData
 application/dvbsubs
+TextInputType.twitter
 ruby
 dev.flutter.pigeon.path_provider_andr...
 Trace
 dub
 orange
+androidx.core.view.inputmethod.Editor...
 Completed
 ALBUM
 callback
@@ -968,6 +970,7 @@ dut
 07
 08
 09
+io.flutter.embedding.android.DisableM...
 TextInput.hide
 constantBitrateSeekingEnabled
 telephoneNumberNational
@@ -994,8 +997,8 @@ transactionId
 input_method
 com.google.android.exoplayer2.Timeline
 Soundtrack
-channelCounts
 oldText
+channelCounts
 Clipboard.hasStrings
 com.widevine
 Id3Reader
@@ -1023,8 +1026,8 @@ _HLS_msn
 androidx.core.view.inputmethod.Editor...
 systemNavigationBarIconBrightness
 contextMenu
-Event
 progress
+Event
 autofill
 TextCapitalization.none
 Id3Decoder
@@ -1032,6 +1035,7 @@ operation
 android.widget.EditText
 open
 NO_DECISION
+Scribe.startStylusHandwriting
 Super_SlowMotion_Edit_Data
 TDAT
 forced
@@ -1093,11 +1097,13 @@ SystemUiMode.leanBack
 panell_ds
 video/av01
 AFTKMST12
+Scribe.isFeatureAvailable
 layout
 1601
 schemeIdUri
 Speech
 java.lang.Object
+TextInputType.webSearch
 setStreamVolume
 SystemChrome.setSystemUIChangeListener
 Pixel
@@ -1106,10 +1112,10 @@ dexopt/baseline.profm
 x:xmpmeta
 c2.android.mp3.decoder
 Location
-extendedPostalCode
 tilapia
-kotlinx.coroutines.bufferedChannel.se...
 TextInput.setPlatformViewClient
+kotlinx.coroutines.bufferedChannel.se...
+extendedPostalCode
 prefix
 zoomOut
 expectedSize
@@ -1128,10 +1134,10 @@ GIONEE_WBL7519
 azure
 mpd
 application/json
-hints
 HttpUtil
-keyup
+hints
 java.util.Set
+keyup
 onWindowLayoutChangeListenerAdded
 urn:scte:scte35:2014:bin
 textEmphasis
@@ -1351,20 +1357,20 @@ RestorationChannel
 middleInitial
 BW
 SCV31
-AdaptiveTrackSelection
 PHYSICAL_DISPLAY_PLATFORM_VIEW
+AdaptiveTrackSelection
 BY
 video/avc
 BZ
 Goa
-codePoint
 CA
+codePoint
 CC
 CD
 android.media.metadata.ADVERTISEMENT
 CF
-SystemUiOverlay.top
 CG
+SystemUiOverlay.top
 CH
 CI
 RESULT_PARSE_EXCEPTION
@@ -1430,15 +1436,15 @@ ES
 ET
 volume
 isStreamMute
-phoneCountryCode
 presentationTimeOffset
-telephoneNumberCountryCode
+phoneCountryCode
 darkred
+telephoneNumberCountryCode
 Camera:MicroVideo
 borderstyle
 http
-decimal
 alignment
+decimal
 vp9
 vp8
 FI
@@ -1487,8 +1493,8 @@ label
 message
 GT
 Blues
-scanCode
 GU
+scanCode
 FlutterJNI
 GW
 java.util.function.Consumer
@@ -1564,8 +1570,8 @@ com.tekartik.sqflite
 Completing
 KE
 KG
-addressRegion
 NOTIFICATIONS
+addressRegion
 KH
 KI
 Sony
@@ -1764,9 +1770,9 @@ Swing
 setBluetoothScoOn
 CTOC
 android.media.metadata.DISC_NUMBER
-creditCardExpirationMonth
 cache
 deepskyblue
+creditCardExpirationMonth
 maxSpl
 deltaText
 R9
@@ -1774,6 +1780,7 @@ C1505
 C1504
 OMX.SEC.mp3.dec
 .flac
+io.flutter.embedding.android.EnableSu...
 Pop
 RE
 Soul
@@ -1813,8 +1820,8 @@ V_THEORA
 SH
 SI
 SJ
-MediaCodecInfo
 TextInputClient.updateEditingStateWit...
+MediaCodecInfo
 SK
 .cmf
 SL
@@ -1887,8 +1894,8 @@ PRIV
 kotlin.Double
 rum
 UA
-onActivityResult
 minimumUpdatePeriod
+onActivityResult
 UG
 Gangsta
 view
@@ -1911,8 +1918,8 @@ UZ
 SinglePeriodTimeline
 expectedValuesPerKey
 VA
-creditCardSecurityCode
 bold
+creditCardSecurityCode
 VC
 nno
 FULL
@@ -1926,8 +1933,8 @@ cea608
 name
 VN
 AFTJMST12
-fields
 DartExecutor
+fields
 parameters
 Bhangra
 VU
@@ -1936,16 +1943,16 @@ nob
 keymap
 InbandEventStream
 PRO7S
-color
 string
+color
 FlutterLoader
 deltaStart
 kotlin.coroutines.jvm.internal.BaseCo...
 android
 initialCapacity
-nameSuffix
 java.lang.module.ModuleDescriptor
 description
+nameSuffix
 WB
 nounderline
 WF
@@ -1965,8 +1972,8 @@ Bass
 griffin
 http://schemas.microsoft.com/DRM/2007...
 L150
-io.flutter.embedding.android.NormalTheme
 green
+io.flutter.embedding.android.NormalTheme
 L156
 SUSPEND_NO_WAITER
 Dispatchers.Main
@@ -2024,10 +2031,10 @@ double
 lightyellow
 ZA
 violet
-newPassword
 INSTANCE
-smsOTPCode
+newPassword
 .jpeg
+smsOTPCode
 flutter_deeplinking_enabled
 .ts
 mediumblue
@@ -2102,8 +2109,8 @@ MediaPeriodHolder
 601LV
 configureCodec
 PlaceholderSurface
-magnolia
 selectionBase
+magnolia
 SettingsChannel
 frameRate
 baseContainer
@@ -2247,11 +2254,13 @@ cs
 taido_row
 flounder_lte
 iTunSMPB
+flutter/scribe
 INACTIVE
 cy
 androidAudioSessionId
 Dance
 USAGE_ASSISTANCE_NAVIGATION_GUIDANCE
+enableOnBackInvokedCallbackState
 OMX.SEC.vp8.dec
 digits
 de
@@ -2272,6 +2281,7 @@ F02H
 image
 CIPAMRNBDecoder
 MOVIES
+SCROLL_TO_OFFSET
 Failed
 proportionalControlFactor
 el
@@ -2290,8 +2300,8 @@ lightsalmon
 zerolte
 ELUGA_Prim
 OMX.lge.flac.decoder
-countryName
 fa
+countryName
 nodeId
 rdf:Description
 inputAction
@@ -2305,8 +2315,8 @@ ExoPlayerImpl
 OMX.Exynos.avc.dec.secure
 origin
 INDEPENDENT
-extendedAddress
 fr
+extendedAddress
 DOCUMENTS
 wm.currentWindowMetrics.bounds
 content
@@ -2325,6 +2335,7 @@ V23GB
 woods_fn
 cbc1
 Tango
+Scribe.isStylusHandwritingAvailable
 ServiceDescription
 os.arch
 FlutterEngineCxnRegstry
@@ -2342,8 +2353,8 @@ io.flutter.embedding.android.LeakVM
 pushRouteInformation
 androidx.window.extensions.layout.Fol...
 he
-TextInputAction.next
 setInitialRoute
+TextInputAction.next
 Duet
 Chillout
 playresy
@@ -2397,8 +2408,8 @@ E5643
 AFTM
 dac4
 AFTN
-telephoneNumber
 dac3
+telephoneNumber
 sienna
 audio/raw
 cornsilk
@@ -2439,8 +2450,8 @@ auto
 flutter/processtext
 GiONEE_GBL7319
 lr
-newUsername
 Super_SlowMotion_Data
+newUsername
 sign
 lt
 audioSource
@@ -2482,8 +2493,8 @@ nl
 audio/ac4
 iball8735_9806
 TextInputType.visiblePassword
-birthday
 nn
+birthday
 p0
 no
 code
@@ -2525,7 +2536,6 @@ Share.invoke
 V_MPEG2
 flutter/textinput
 F3213
-io.flutter.embedding.android.EnableMe...
 setLoopMode
 F3211
 F3215
@@ -2571,7 +2581,6 @@ VorbisUtil
 Eclectic
 rt
 activity
-io.flutter.embedding.android.DisableS...
 seashell
 seek
 :cea708
@@ -2582,9 +2591,9 @@ sk
 audio
 ImageTextureRegistryEntry
 key
-email
 DMCodecAdapterFactory
 sq
+email
 kotlin.Enum.Companion
 sr
 RESOURCE
@@ -2611,8 +2620,8 @@ getStreamMaxVolume
 SystemNavigator.pop
 resizeRight
 QM16XE_U
-TextInputAction.newline
 compressed
+TextInputAction.newline
 v2
 io.flutter.embedding.android.EnableVu...
 _prev
@@ -2633,8 +2642,8 @@ com.android.capture.fps
 DefaultAudioSink
 .wave
 dynamic
-TOP_OVERLAYS
 XT1650
+TOP_OVERLAYS
 gainsboro
 Dispatchers.Default
 SampleQueue
@@ -2720,9 +2729,9 @@ CONSUMED
 systemNavigationBarContrastEnforced
 tekartik_sqflite.db
 ACTION_ARGUMENT_SELECTION_START_INT
-push
 zh
 PlaybackRate
+push
 android.media.metadata.ALBUM_ARTIST
 bg_magenta
 _state
@@ -2749,8 +2758,8 @@ feature
 com.sony.dtv.hardware.panel.qfhd
 ger
 get
-oneTimeCode
 dark
+oneTimeCode
 concatenating
 power
 copy
@@ -2767,8 +2776,8 @@ tickRate
 cadetblue
 SystemChrome.setPreferredOrientations
 help
-phoneNumberDevice
 darkkhaki
+phoneNumberDevice
 podcasts
 flutter/deferredcomponent
 elements
@@ -2809,8 +2818,8 @@ aquaman
 swipeEdge
 Active
 postalAddress
-telephoneNumberDevice
 kotlin.collections.Iterable
+telephoneNumberDevice
 files
 sesame
 dash
@@ -2833,9 +2842,9 @@ mediumturquoise
 orientation
 concatenatingRemoveRange
 java.util.Iterator
-onWindowFocusChanged
 lime
 TextInputClient.performAction
+onWindowFocusChanged
 NX541J
 com.android.okhttp.internal.http.Http...
 ON_STOP
@@ -2969,347 +2978,351 @@ Marking id:tag_unhandled_key_listeners:2131165271 used because it matches string
 Marking id:tag_window_insets_animation_callback:2131165272 used because it matches string pool constant tag
 Marking id:line1:2131165243 used because it matches string pool constant line
 Marking id:line3:2131165244 used because it matches string pool constant line
-@anim/fragment_fast_out_extra_slow_in : reachable=false
-@animator/fragment_close_enter : reachable=false
-    @anim/fragment_fast_out_extra_slow_in
-@animator/fragment_close_exit : reachable=false
-    @anim/fragment_fast_out_extra_slow_in
-@animator/fragment_fade_enter : reachable=false
-@animator/fragment_fade_exit : reachable=false
-@animator/fragment_open_enter : reachable=false
-    @anim/fragment_fast_out_extra_slow_in
-@animator/fragment_open_exit : reachable=false
-    @anim/fragment_fast_out_extra_slow_in
-@attr/activityAction : reachable=true
-@attr/activityName : reachable=true
-@attr/alpha : reachable=false
-@attr/alwaysExpand : reachable=false
-@attr/animationBackgroundColor : reachable=false
-@attr/clearTop : reachable=false
-@attr/finishPrimaryWithPlaceholder : reachable=false
-@attr/finishPrimaryWithSecondary : reachable=false
-@attr/finishSecondaryWithPrimary : reachable=false
-@attr/font : reachable=false
-@attr/fontProviderAuthority : reachable=false
-@attr/fontProviderCerts : reachable=false
-@attr/fontProviderFetchStrategy : reachable=false
-@attr/fontProviderFetchTimeout : reachable=false
-@attr/fontProviderPackage : reachable=false
-@attr/fontProviderQuery : reachable=false
-@attr/fontProviderSystemFontFamily : reachable=false
-@attr/fontStyle : reachable=true
-@attr/fontVariationSettings : reachable=false
-@attr/fontWeight : reachable=true
-@attr/lStar : reachable=false
-@attr/nestedScrollViewStyle : reachable=false
-@attr/placeholderActivityName : reachable=false
-@attr/primaryActivityName : reachable=false
-@attr/queryPatterns : reachable=true
-@attr/secondaryActivityAction : reachable=false
-@attr/secondaryActivityName : reachable=false
-@attr/shortcutMatchRequired : reachable=true
-@attr/splitLayoutDirection : reachable=false
-@attr/splitMaxAspectRatioInLandscape : reachable=false
-@attr/splitMaxAspectRatioInPortrait : reachable=false
-@attr/splitMinHeightDp : reachable=false
-@attr/splitMinSmallestWidthDp : reachable=false
-@attr/splitMinWidthDp : reachable=false
-@attr/splitRatio : reachable=false
-@attr/stickyPlaceholder : reachable=false
-@attr/tag : reachable=true
-@attr/ttcIndex : reachable=false
-@color/androidx_core_ripple_material_light : reachable=true
-@color/androidx_core_secondary_text_default_material_light : reachable=true
-@color/call_notification_answer_color : reachable=false
-@color/call_notification_decline_color : reachable=false
-@color/notification_action_color_filter : reachable=false
-    @color/androidx_core_secondary_text_default_material_light
-@color/notification_icon_bg_color : reachable=false
-@color/notification_material_background_media_default_color : reachable=false
-@color/primary_text_default_material_dark : reachable=false
-@color/secondary_text_default_material_dark : reachable=false
-@dimen/compat_button_inset_horizontal_material : reachable=false
-@dimen/compat_button_inset_vertical_material : reachable=false
-@dimen/compat_button_padding_horizontal_material : reachable=false
-@dimen/compat_button_padding_vertical_material : reachable=false
-@dimen/compat_control_corner_material : reachable=false
-@dimen/compat_notification_large_icon_max_height : reachable=false
-@dimen/compat_notification_large_icon_max_width : reachable=false
-@dimen/notification_action_icon_size : reachable=false
-@dimen/notification_action_text_size : reachable=false
-@dimen/notification_big_circle_margin : reachable=false
-@dimen/notification_content_margin_start : reachable=false
-@dimen/notification_large_icon_height : reachable=false
-@dimen/notification_large_icon_width : reachable=false
-@dimen/notification_main_column_padding_top : reachable=false
-@dimen/notification_media_narrow_margin : reachable=false
-@dimen/notification_right_icon_size : reachable=false
-@dimen/notification_right_side_padding_top : reachable=false
-@dimen/notification_small_icon_background_padding : reachable=false
-@dimen/notification_small_icon_size_as_large : reachable=false
-@dimen/notification_subtext_size : reachable=false
-@dimen/notification_top_pad : reachable=false
-@dimen/notification_top_pad_large_text : reachable=false
-@drawable/ic_call_answer : reachable=false
-@drawable/ic_call_answer_low : reachable=false
-@drawable/ic_call_answer_video : reachable=false
-@drawable/ic_call_answer_video_low : reachable=false
-@drawable/ic_call_decline : reachable=false
-@drawable/ic_call_decline_low : reachable=false
-@drawable/launch_background : reachable=false
-@drawable/notification_action_background : reachable=false
-    @color/androidx_core_ripple_material_light
-    @dimen/compat_button_inset_horizontal_material
-    @dimen/compat_button_inset_vertical_material
-    @dimen/compat_control_corner_material
-    @dimen/compat_button_padding_vertical_material
-    @dimen/compat_button_padding_horizontal_material
-@drawable/notification_bg : reachable=false
-    @drawable/notification_bg_normal_pressed
-    @drawable/notification_bg_normal
-@drawable/notification_bg_low : reachable=false
-    @drawable/notification_bg_low_pressed
-    @drawable/notification_bg_low_normal
-@drawable/notification_bg_low_normal : reachable=false
-@drawable/notification_bg_low_pressed : reachable=false
-@drawable/notification_bg_normal : reachable=false
-@drawable/notification_bg_normal_pressed : reachable=false
-@drawable/notification_icon_background : reachable=false
-    @color/notification_icon_bg_color
-@drawable/notification_oversize_large_icon_bg : reachable=false
-@drawable/notification_template_icon_bg : reachable=false
-@drawable/notification_template_icon_low_bg : reachable=false
-@drawable/notification_tile_bg : reachable=false
-    @drawable/notify_panel_notification_icon_bg
-@drawable/notify_panel_notification_icon_bg : reachable=false
-@id/accessibility_action_clickable_span : reachable=true
-@id/accessibility_custom_action_0 : reachable=true
-@id/accessibility_custom_action_1 : reachable=true
-@id/accessibility_custom_action_10 : reachable=true
-@id/accessibility_custom_action_11 : reachable=true
-@id/accessibility_custom_action_12 : reachable=true
-@id/accessibility_custom_action_13 : reachable=true
-@id/accessibility_custom_action_14 : reachable=true
-@id/accessibility_custom_action_15 : reachable=true
-@id/accessibility_custom_action_16 : reachable=true
-@id/accessibility_custom_action_17 : reachable=true
-@id/accessibility_custom_action_18 : reachable=true
-@id/accessibility_custom_action_19 : reachable=true
-@id/accessibility_custom_action_2 : reachable=true
-@id/accessibility_custom_action_20 : reachable=true
-@id/accessibility_custom_action_21 : reachable=true
-@id/accessibility_custom_action_22 : reachable=true
-@id/accessibility_custom_action_23 : reachable=true
-@id/accessibility_custom_action_24 : reachable=true
-@id/accessibility_custom_action_25 : reachable=true
-@id/accessibility_custom_action_26 : reachable=true
-@id/accessibility_custom_action_27 : reachable=true
-@id/accessibility_custom_action_28 : reachable=true
-@id/accessibility_custom_action_29 : reachable=true
-@id/accessibility_custom_action_3 : reachable=true
-@id/accessibility_custom_action_30 : reachable=true
-@id/accessibility_custom_action_31 : reachable=true
-@id/accessibility_custom_action_4 : reachable=true
-@id/accessibility_custom_action_5 : reachable=true
-@id/accessibility_custom_action_6 : reachable=true
-@id/accessibility_custom_action_7 : reachable=true
-@id/accessibility_custom_action_8 : reachable=true
-@id/accessibility_custom_action_9 : reachable=true
-@id/action0 : reachable=true
-@id/action_container : reachable=true
-@id/action_divider : reachable=true
-@id/action_image : reachable=true
-@id/action_text : reachable=true
-@id/actions : reachable=true
-@id/adjacent : reachable=false
-@id/always : reachable=false
-@id/alwaysAllow : reachable=false
-@id/alwaysDisallow : reachable=false
-@id/androidx_window_activity_scope : reachable=true
-@id/async : reachable=false
-@id/blocking : reachable=false
-@id/bottomToTop : reachable=false
-@id/cancel_action : reachable=true
-@id/chronometer : reachable=false
-@id/dialog_button : reachable=false
-@id/edit_text_id : reachable=false
-@id/end_padder : reachable=true
-@id/forever : reachable=false
-@id/fragment_container_view_tag : reachable=false
-@id/hide_ime_id : reachable=false
-@id/icon : reachable=false
-@id/icon_group : reachable=false
-@id/info : reachable=true
-@id/italic : reachable=true
-@id/line1 : reachable=true
-@id/line3 : reachable=true
-@id/locale : reachable=true
-@id/ltr : reachable=false
-@id/media_actions : reachable=true
-@id/media_controller_compat_view_tag : reachable=true
-@id/never : reachable=false
-@id/normal : reachable=false
-@id/notification_background : reachable=false
-@id/notification_main_column : reachable=false
-@id/notification_main_column_container : reachable=false
-@id/report_drawn : reachable=false
-@id/right_icon : reachable=true
-@id/right_side : reachable=true
-@id/rtl : reachable=false
-@id/special_effects_controller_view_tag : reachable=false
-@id/status_bar_latest_event_content : reachable=false
-@id/tag_accessibility_actions : reachable=true
-@id/tag_accessibility_clickable_spans : reachable=true
-@id/tag_accessibility_heading : reachable=true
-@id/tag_accessibility_pane_title : reachable=true
-@id/tag_on_apply_window_listener : reachable=true
-@id/tag_on_receive_content_listener : reachable=true
-@id/tag_on_receive_content_mime_types : reachable=true
-@id/tag_screen_reader_focusable : reachable=true
-@id/tag_state_description : reachable=true
-@id/tag_transition_group : reachable=true
-@id/tag_unhandled_key_event_manager : reachable=true
-@id/tag_unhandled_key_listeners : reachable=true
-@id/tag_window_insets_animation_callback : reachable=true
-@id/text : reachable=true
-@id/text2 : reachable=true
-@id/time : reachable=false
-@id/title : reachable=true
-@id/topToBottom : reachable=true
-@id/view_tree_lifecycle_owner : reachable=true
-@id/view_tree_on_back_pressed_dispatcher_owner : reachable=true
-@id/view_tree_saved_state_registry_owner : reachable=true
-@id/view_tree_view_model_store_owner : reachable=true
-@id/visible_removing_fragment_view_tag : reachable=false
-@integer/cancel_button_image_alpha : reachable=true
-@integer/status_bar_notification_info_maxnum : reachable=false
-@layout/custom_dialog : reachable=false
-@layout/ime_base_split_test_activity : reachable=false
-@layout/ime_secondary_split_test_activity : reachable=false
-@layout/notification_action : reachable=false
-    @style/Widget_Compat_NotificationActionContainer
-    @dimen/notification_action_icon_size
-    @style/Widget_Compat_NotificationActionText
-@layout/notification_action_tombstone : reachable=false
-    @style/Widget_Compat_NotificationActionContainer
-    @dimen/notification_action_icon_size
-    @style/Widget_Compat_NotificationActionText
-@layout/notification_media_action : reachable=false
-@layout/notification_media_cancel_action : reachable=false
-@layout/notification_template_big_media : reachable=false
-    @layout/notification_template_icon_group
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @layout/notification_media_cancel_action
-    @layout/notification_template_lines_media
-@layout/notification_template_big_media_custom : reachable=false
-    @layout/notification_template_icon_group
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @layout/notification_media_cancel_action
-    @dimen/notification_main_column_padding_top
-    @dimen/notification_content_margin_start
-    @dimen/notification_right_side_padding_top
-    @style/TextAppearance_Compat_Notification_Time_Media
-    @style/TextAppearance_Compat_Notification_Info_Media
-@layout/notification_template_big_media_narrow : reachable=false
-    @layout/notification_media_cancel_action
-    @layout/notification_template_lines_media
-@layout/notification_template_big_media_narrow_custom : reachable=false
-    @layout/notification_media_cancel_action
-    @dimen/notification_large_icon_height
-    @dimen/notification_main_column_padding_top
-    @dimen/notification_media_narrow_margin
-    @dimen/notification_right_side_padding_top
-    @style/TextAppearance_Compat_Notification_Time_Media
-    @style/TextAppearance_Compat_Notification_Info_Media
-@layout/notification_template_custom_big : reachable=false
-    @layout/notification_template_icon_group
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @dimen/notification_right_side_padding_top
-    @layout/notification_template_part_time
-    @layout/notification_template_part_chronometer
-    @style/TextAppearance_Compat_Notification_Info
-@layout/notification_template_icon_group : reachable=false
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @dimen/notification_big_circle_margin
-    @dimen/notification_right_icon_size
-@layout/notification_template_lines_media : reachable=false
-    @dimen/notification_content_margin_start
-    @style/TextAppearance_Compat_Notification_Title_Media
-    @style/TextAppearance_Compat_Notification_Time_Media
-    @style/TextAppearance_Compat_Notification_Line2_Media
-    @style/TextAppearance_Compat_Notification_Media
-    @style/TextAppearance_Compat_Notification_Info_Media
-@layout/notification_template_media : reachable=false
-    @layout/notification_template_icon_group
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @layout/notification_template_lines_media
-    @layout/notification_media_cancel_action
-@layout/notification_template_media_custom : reachable=false
-    @layout/notification_template_icon_group
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @dimen/notification_main_column_padding_top
-    @dimen/notification_content_margin_start
-    @dimen/notification_right_side_padding_top
-    @style/TextAppearance_Compat_Notification_Time_Media
-    @style/TextAppearance_Compat_Notification_Info_Media
-    @layout/notification_media_cancel_action
-@layout/notification_template_part_chronometer : reachable=false
-    @style/TextAppearance_Compat_Notification_Time
-@layout/notification_template_part_time : reachable=false
-    @style/TextAppearance_Compat_Notification_Time
-@mipmap/ic_launcher : reachable=true
-@string/androidx_startup : reachable=true
-@string/call_notification_answer_action : reachable=false
-@string/call_notification_answer_video_action : reachable=false
-@string/call_notification_decline_action : reachable=false
-@string/call_notification_hang_up_action : reachable=false
-@string/call_notification_incoming_text : reachable=false
-@string/call_notification_ongoing_text : reachable=false
-@string/call_notification_screening_text : reachable=false
-@string/exo_download_completed : reachable=false
-@string/exo_download_description : reachable=false
-@string/exo_download_downloading : reachable=false
-@string/exo_download_failed : reachable=false
-@string/exo_download_notification_channel_name : reachable=false
-@string/exo_download_paused : reachable=false
-@string/exo_download_paused_for_network : reachable=false
-@string/exo_download_paused_for_wifi : reachable=false
-@string/exo_download_removing : reachable=false
-@string/status_bar_notification_info_overflow : reachable=false
-@style/LaunchTheme : reachable=true
-    @drawable/launch_background
-@style/NormalTheme : reachable=true
-@style/TextAppearance_Compat_Notification : reachable=false
-@style/TextAppearance_Compat_Notification_Info : reachable=false
-@style/TextAppearance_Compat_Notification_Info_Media : reachable=false
-    @style/TextAppearance_Compat_Notification_Info
-    @color/secondary_text_default_material_dark
-@style/TextAppearance_Compat_Notification_Line2 : reachable=false
-    @style/TextAppearance_Compat_Notification_Info
-@style/TextAppearance_Compat_Notification_Line2_Media : reachable=false
-    @style/TextAppearance_Compat_Notification_Info_Media
-@style/TextAppearance_Compat_Notification_Media : reachable=false
-    @style/TextAppearance_Compat_Notification
-    @color/secondary_text_default_material_dark
-@style/TextAppearance_Compat_Notification_Time : reachable=false
-@style/TextAppearance_Compat_Notification_Time_Media : reachable=false
-    @style/TextAppearance_Compat_Notification_Time
-    @color/secondary_text_default_material_dark
-@style/TextAppearance_Compat_Notification_Title : reachable=false
-@style/TextAppearance_Compat_Notification_Title_Media : reachable=false
-    @style/TextAppearance_Compat_Notification_Title
-    @color/primary_text_default_material_dark
-@style/Widget_Compat_NotificationActionContainer : reachable=false
-    @drawable/notification_action_background
-@style/Widget_Compat_NotificationActionText : reachable=false
-    @color/androidx_core_secondary_text_default_material_light
-    @dimen/notification_action_text_size
+@com.devb.english_test:anim/fragment_fast_out_extra_slow_in : reachable=false
+@com.devb.english_test:animator/fragment_close_enter : reachable=false
+    @com.devb.english_test:anim/fragment_fast_out_extra_slow_in
+@com.devb.english_test:animator/fragment_close_exit : reachable=false
+    @com.devb.english_test:anim/fragment_fast_out_extra_slow_in
+@com.devb.english_test:animator/fragment_fade_enter : reachable=false
+@com.devb.english_test:animator/fragment_fade_exit : reachable=false
+@com.devb.english_test:animator/fragment_open_enter : reachable=false
+    @com.devb.english_test:anim/fragment_fast_out_extra_slow_in
+@com.devb.english_test:animator/fragment_open_exit : reachable=false
+    @com.devb.english_test:anim/fragment_fast_out_extra_slow_in
+@com.devb.english_test:attr/activityAction : reachable=true
+@com.devb.english_test:attr/activityName : reachable=true
+@com.devb.english_test:attr/alpha : reachable=false
+@com.devb.english_test:attr/alwaysExpand : reachable=false
+@com.devb.english_test:attr/animationBackgroundColor : reachable=false
+@com.devb.english_test:attr/clearTop : reachable=false
+@com.devb.english_test:attr/finishPrimaryWithPlaceholder : reachable=false
+@com.devb.english_test:attr/finishPrimaryWithSecondary : reachable=false
+@com.devb.english_test:attr/finishSecondaryWithPrimary : reachable=false
+@com.devb.english_test:attr/font : reachable=false
+@com.devb.english_test:attr/fontProviderAuthority : reachable=false
+@com.devb.english_test:attr/fontProviderCerts : reachable=false
+@com.devb.english_test:attr/fontProviderFetchStrategy : reachable=false
+@com.devb.english_test:attr/fontProviderFetchTimeout : reachable=false
+@com.devb.english_test:attr/fontProviderPackage : reachable=false
+@com.devb.english_test:attr/fontProviderQuery : reachable=false
+@com.devb.english_test:attr/fontProviderSystemFontFamily : reachable=false
+@com.devb.english_test:attr/fontStyle : reachable=true
+@com.devb.english_test:attr/fontVariationSettings : reachable=false
+@com.devb.english_test:attr/fontWeight : reachable=true
+@com.devb.english_test:attr/lStar : reachable=false
+@com.devb.english_test:attr/nestedScrollViewStyle : reachable=false
+@com.devb.english_test:attr/placeholderActivityName : reachable=false
+@com.devb.english_test:attr/primaryActivityName : reachable=false
+@com.devb.english_test:attr/queryPatterns : reachable=true
+@com.devb.english_test:attr/secondaryActivityAction : reachable=false
+@com.devb.english_test:attr/secondaryActivityName : reachable=false
+@com.devb.english_test:attr/shortcutMatchRequired : reachable=true
+@com.devb.english_test:attr/splitLayoutDirection : reachable=false
+@com.devb.english_test:attr/splitMaxAspectRatioInLandscape : reachable=false
+@com.devb.english_test:attr/splitMaxAspectRatioInPortrait : reachable=false
+@com.devb.english_test:attr/splitMinHeightDp : reachable=false
+@com.devb.english_test:attr/splitMinSmallestWidthDp : reachable=false
+@com.devb.english_test:attr/splitMinWidthDp : reachable=false
+@com.devb.english_test:attr/splitRatio : reachable=false
+@com.devb.english_test:attr/stickyPlaceholder : reachable=false
+@com.devb.english_test:attr/tag : reachable=true
+@com.devb.english_test:attr/ttcIndex : reachable=false
+@com.devb.english_test:color/androidx_core_ripple_material_light : reachable=true
+@com.devb.english_test:color/androidx_core_secondary_text_default_material_light : reachable=true
+@com.devb.english_test:color/call_notification_answer_color : reachable=false
+@com.devb.english_test:color/call_notification_decline_color : reachable=false
+@com.devb.english_test:color/notification_action_color_filter : reachable=false
+    @com.devb.english_test:color/androidx_core_secondary_text_default_material_light
+@com.devb.english_test:color/notification_icon_bg_color : reachable=false
+@com.devb.english_test:color/notification_material_background_media_default_color : reachable=false
+@com.devb.english_test:color/primary_text_default_material_dark : reachable=false
+@com.devb.english_test:color/secondary_text_default_material_dark : reachable=false
+@com.devb.english_test:dimen/compat_button_inset_horizontal_material : reachable=false
+@com.devb.english_test:dimen/compat_button_inset_vertical_material : reachable=false
+@com.devb.english_test:dimen/compat_button_padding_horizontal_material : reachable=false
+@com.devb.english_test:dimen/compat_button_padding_vertical_material : reachable=false
+@com.devb.english_test:dimen/compat_control_corner_material : reachable=false
+@com.devb.english_test:dimen/compat_notification_large_icon_max_height : reachable=false
+@com.devb.english_test:dimen/compat_notification_large_icon_max_width : reachable=false
+@com.devb.english_test:dimen/notification_action_icon_size : reachable=false
+@com.devb.english_test:dimen/notification_action_text_size : reachable=false
+@com.devb.english_test:dimen/notification_big_circle_margin : reachable=false
+@com.devb.english_test:dimen/notification_content_margin_start : reachable=false
+@com.devb.english_test:dimen/notification_large_icon_height : reachable=false
+@com.devb.english_test:dimen/notification_large_icon_width : reachable=false
+@com.devb.english_test:dimen/notification_main_column_padding_top : reachable=false
+@com.devb.english_test:dimen/notification_media_narrow_margin : reachable=false
+@com.devb.english_test:dimen/notification_right_icon_size : reachable=false
+@com.devb.english_test:dimen/notification_right_side_padding_top : reachable=false
+@com.devb.english_test:dimen/notification_small_icon_background_padding : reachable=false
+@com.devb.english_test:dimen/notification_small_icon_size_as_large : reachable=false
+@com.devb.english_test:dimen/notification_subtext_size : reachable=false
+@com.devb.english_test:dimen/notification_top_pad : reachable=false
+@com.devb.english_test:dimen/notification_top_pad_large_text : reachable=false
+@com.devb.english_test:drawable/background : reachable=false
+@com.devb.english_test:drawable/ic_call_answer : reachable=false
+@com.devb.english_test:drawable/ic_call_answer_low : reachable=false
+@com.devb.english_test:drawable/ic_call_answer_video : reachable=false
+@com.devb.english_test:drawable/ic_call_answer_video_low : reachable=false
+@com.devb.english_test:drawable/ic_call_decline : reachable=false
+@com.devb.english_test:drawable/ic_call_decline_low : reachable=false
+@com.devb.english_test:drawable/launch_background : reachable=false
+    @com.devb.english_test:drawable/background
+    @com.devb.english_test:drawable/splash
+@com.devb.english_test:drawable/notification_action_background : reachable=false
+    @com.devb.english_test:color/androidx_core_ripple_material_light
+    @com.devb.english_test:dimen/compat_button_inset_horizontal_material
+    @com.devb.english_test:dimen/compat_button_inset_vertical_material
+    @com.devb.english_test:dimen/compat_control_corner_material
+    @com.devb.english_test:dimen/compat_button_padding_vertical_material
+    @com.devb.english_test:dimen/compat_button_padding_horizontal_material
+@com.devb.english_test:drawable/notification_bg : reachable=false
+    @com.devb.english_test:drawable/notification_bg_normal_pressed
+    @com.devb.english_test:drawable/notification_bg_normal
+@com.devb.english_test:drawable/notification_bg_low : reachable=false
+    @com.devb.english_test:drawable/notification_bg_low_pressed
+    @com.devb.english_test:drawable/notification_bg_low_normal
+@com.devb.english_test:drawable/notification_bg_low_normal : reachable=false
+@com.devb.english_test:drawable/notification_bg_low_pressed : reachable=false
+@com.devb.english_test:drawable/notification_bg_normal : reachable=false
+@com.devb.english_test:drawable/notification_bg_normal_pressed : reachable=false
+@com.devb.english_test:drawable/notification_icon_background : reachable=false
+    @com.devb.english_test:color/notification_icon_bg_color
+@com.devb.english_test:drawable/notification_oversize_large_icon_bg : reachable=false
+@com.devb.english_test:drawable/notification_template_icon_bg : reachable=false
+@com.devb.english_test:drawable/notification_template_icon_low_bg : reachable=false
+@com.devb.english_test:drawable/notification_tile_bg : reachable=false
+    @com.devb.english_test:drawable/notify_panel_notification_icon_bg
+@com.devb.english_test:drawable/notify_panel_notification_icon_bg : reachable=false
+@com.devb.english_test:drawable/splash : reachable=false
+@com.devb.english_test:id/accessibility_action_clickable_span : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_0 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_1 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_10 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_11 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_12 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_13 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_14 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_15 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_16 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_17 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_18 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_19 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_2 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_20 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_21 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_22 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_23 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_24 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_25 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_26 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_27 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_28 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_29 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_3 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_30 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_31 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_4 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_5 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_6 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_7 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_8 : reachable=true
+@com.devb.english_test:id/accessibility_custom_action_9 : reachable=true
+@com.devb.english_test:id/action0 : reachable=true
+@com.devb.english_test:id/action_container : reachable=true
+@com.devb.english_test:id/action_divider : reachable=true
+@com.devb.english_test:id/action_image : reachable=true
+@com.devb.english_test:id/action_text : reachable=true
+@com.devb.english_test:id/actions : reachable=true
+@com.devb.english_test:id/adjacent : reachable=false
+@com.devb.english_test:id/always : reachable=false
+@com.devb.english_test:id/alwaysAllow : reachable=false
+@com.devb.english_test:id/alwaysDisallow : reachable=false
+@com.devb.english_test:id/androidx_window_activity_scope : reachable=true
+@com.devb.english_test:id/async : reachable=false
+@com.devb.english_test:id/blocking : reachable=false
+@com.devb.english_test:id/bottomToTop : reachable=false
+@com.devb.english_test:id/cancel_action : reachable=true
+@com.devb.english_test:id/chronometer : reachable=false
+@com.devb.english_test:id/dialog_button : reachable=false
+@com.devb.english_test:id/edit_text_id : reachable=false
+@com.devb.english_test:id/end_padder : reachable=true
+@com.devb.english_test:id/forever : reachable=false
+@com.devb.english_test:id/fragment_container_view_tag : reachable=false
+@com.devb.english_test:id/hide_ime_id : reachable=false
+@com.devb.english_test:id/icon : reachable=false
+@com.devb.english_test:id/icon_group : reachable=false
+@com.devb.english_test:id/info : reachable=true
+@com.devb.english_test:id/italic : reachable=true
+@com.devb.english_test:id/line1 : reachable=true
+@com.devb.english_test:id/line3 : reachable=true
+@com.devb.english_test:id/locale : reachable=true
+@com.devb.english_test:id/ltr : reachable=false
+@com.devb.english_test:id/media_actions : reachable=true
+@com.devb.english_test:id/media_controller_compat_view_tag : reachable=true
+@com.devb.english_test:id/never : reachable=false
+@com.devb.english_test:id/normal : reachable=false
+@com.devb.english_test:id/notification_background : reachable=false
+@com.devb.english_test:id/notification_main_column : reachable=false
+@com.devb.english_test:id/notification_main_column_container : reachable=false
+@com.devb.english_test:id/report_drawn : reachable=false
+@com.devb.english_test:id/right_icon : reachable=true
+@com.devb.english_test:id/right_side : reachable=true
+@com.devb.english_test:id/rtl : reachable=false
+@com.devb.english_test:id/special_effects_controller_view_tag : reachable=false
+@com.devb.english_test:id/status_bar_latest_event_content : reachable=false
+@com.devb.english_test:id/tag_accessibility_actions : reachable=true
+@com.devb.english_test:id/tag_accessibility_clickable_spans : reachable=true
+@com.devb.english_test:id/tag_accessibility_heading : reachable=true
+@com.devb.english_test:id/tag_accessibility_pane_title : reachable=true
+@com.devb.english_test:id/tag_on_apply_window_listener : reachable=true
+@com.devb.english_test:id/tag_on_receive_content_listener : reachable=true
+@com.devb.english_test:id/tag_on_receive_content_mime_types : reachable=true
+@com.devb.english_test:id/tag_screen_reader_focusable : reachable=true
+@com.devb.english_test:id/tag_state_description : reachable=true
+@com.devb.english_test:id/tag_transition_group : reachable=true
+@com.devb.english_test:id/tag_unhandled_key_event_manager : reachable=true
+@com.devb.english_test:id/tag_unhandled_key_listeners : reachable=true
+@com.devb.english_test:id/tag_window_insets_animation_callback : reachable=true
+@com.devb.english_test:id/text : reachable=true
+@com.devb.english_test:id/text2 : reachable=true
+@com.devb.english_test:id/time : reachable=false
+@com.devb.english_test:id/title : reachable=true
+@com.devb.english_test:id/topToBottom : reachable=true
+@com.devb.english_test:id/view_tree_lifecycle_owner : reachable=true
+@com.devb.english_test:id/view_tree_on_back_pressed_dispatcher_owner : reachable=true
+@com.devb.english_test:id/view_tree_saved_state_registry_owner : reachable=true
+@com.devb.english_test:id/view_tree_view_model_store_owner : reachable=true
+@com.devb.english_test:id/visible_removing_fragment_view_tag : reachable=false
+@com.devb.english_test:integer/cancel_button_image_alpha : reachable=true
+@com.devb.english_test:integer/status_bar_notification_info_maxnum : reachable=false
+@com.devb.english_test:layout/custom_dialog : reachable=false
+@com.devb.english_test:layout/ime_base_split_test_activity : reachable=false
+@com.devb.english_test:layout/ime_secondary_split_test_activity : reachable=false
+@com.devb.english_test:layout/notification_action : reachable=false
+    @com.devb.english_test:style/Widget_Compat_NotificationActionContainer
+    @com.devb.english_test:dimen/notification_action_icon_size
+    @com.devb.english_test:style/Widget_Compat_NotificationActionText
+@com.devb.english_test:layout/notification_action_tombstone : reachable=false
+    @com.devb.english_test:style/Widget_Compat_NotificationActionContainer
+    @com.devb.english_test:dimen/notification_action_icon_size
+    @com.devb.english_test:style/Widget_Compat_NotificationActionText
+@com.devb.english_test:layout/notification_media_action : reachable=false
+@com.devb.english_test:layout/notification_media_cancel_action : reachable=false
+@com.devb.english_test:layout/notification_template_big_media : reachable=false
+    @com.devb.english_test:layout/notification_template_icon_group
+    @com.devb.english_test:dimen/notification_large_icon_width
+    @com.devb.english_test:dimen/notification_large_icon_height
+    @com.devb.english_test:layout/notification_media_cancel_action
+    @com.devb.english_test:layout/notification_template_lines_media
+@com.devb.english_test:layout/notification_template_big_media_custom : reachable=false
+    @com.devb.english_test:layout/notification_template_icon_group
+    @com.devb.english_test:dimen/notification_large_icon_width
+    @com.devb.english_test:dimen/notification_large_icon_height
+    @com.devb.english_test:layout/notification_media_cancel_action
+    @com.devb.english_test:dimen/notification_main_column_padding_top
+    @com.devb.english_test:dimen/notification_content_margin_start
+    @com.devb.english_test:dimen/notification_right_side_padding_top
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Time_Media
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Info_Media
+@com.devb.english_test:layout/notification_template_big_media_narrow : reachable=false
+    @com.devb.english_test:layout/notification_media_cancel_action
+    @com.devb.english_test:layout/notification_template_lines_media
+@com.devb.english_test:layout/notification_template_big_media_narrow_custom : reachable=false
+    @com.devb.english_test:layout/notification_media_cancel_action
+    @com.devb.english_test:dimen/notification_large_icon_height
+    @com.devb.english_test:dimen/notification_main_column_padding_top
+    @com.devb.english_test:dimen/notification_media_narrow_margin
+    @com.devb.english_test:dimen/notification_right_side_padding_top
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Time_Media
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Info_Media
+@com.devb.english_test:layout/notification_template_custom_big : reachable=false
+    @com.devb.english_test:layout/notification_template_icon_group
+    @com.devb.english_test:dimen/notification_large_icon_width
+    @com.devb.english_test:dimen/notification_large_icon_height
+    @com.devb.english_test:dimen/notification_right_side_padding_top
+    @com.devb.english_test:layout/notification_template_part_time
+    @com.devb.english_test:layout/notification_template_part_chronometer
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Info
+@com.devb.english_test:layout/notification_template_icon_group : reachable=false
+    @com.devb.english_test:dimen/notification_large_icon_width
+    @com.devb.english_test:dimen/notification_large_icon_height
+    @com.devb.english_test:dimen/notification_big_circle_margin
+    @com.devb.english_test:dimen/notification_right_icon_size
+@com.devb.english_test:layout/notification_template_lines_media : reachable=false
+    @com.devb.english_test:dimen/notification_content_margin_start
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Title_Media
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Time_Media
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Line2_Media
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Media
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Info_Media
+@com.devb.english_test:layout/notification_template_media : reachable=false
+    @com.devb.english_test:layout/notification_template_icon_group
+    @com.devb.english_test:dimen/notification_large_icon_width
+    @com.devb.english_test:dimen/notification_large_icon_height
+    @com.devb.english_test:layout/notification_template_lines_media
+    @com.devb.english_test:layout/notification_media_cancel_action
+@com.devb.english_test:layout/notification_template_media_custom : reachable=false
+    @com.devb.english_test:layout/notification_template_icon_group
+    @com.devb.english_test:dimen/notification_large_icon_width
+    @com.devb.english_test:dimen/notification_large_icon_height
+    @com.devb.english_test:dimen/notification_main_column_padding_top
+    @com.devb.english_test:dimen/notification_content_margin_start
+    @com.devb.english_test:dimen/notification_right_side_padding_top
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Time_Media
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Info_Media
+    @com.devb.english_test:layout/notification_media_cancel_action
+@com.devb.english_test:layout/notification_template_part_chronometer : reachable=false
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Time
+@com.devb.english_test:layout/notification_template_part_time : reachable=false
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Time
+@com.devb.english_test:mipmap/ic_launcher : reachable=true
+@com.devb.english_test:string/androidx_startup : reachable=true
+@com.devb.english_test:string/call_notification_answer_action : reachable=false
+@com.devb.english_test:string/call_notification_answer_video_action : reachable=false
+@com.devb.english_test:string/call_notification_decline_action : reachable=false
+@com.devb.english_test:string/call_notification_hang_up_action : reachable=false
+@com.devb.english_test:string/call_notification_incoming_text : reachable=false
+@com.devb.english_test:string/call_notification_ongoing_text : reachable=false
+@com.devb.english_test:string/call_notification_screening_text : reachable=false
+@com.devb.english_test:string/exo_download_completed : reachable=false
+@com.devb.english_test:string/exo_download_description : reachable=false
+@com.devb.english_test:string/exo_download_downloading : reachable=false
+@com.devb.english_test:string/exo_download_failed : reachable=false
+@com.devb.english_test:string/exo_download_notification_channel_name : reachable=false
+@com.devb.english_test:string/exo_download_paused : reachable=false
+@com.devb.english_test:string/exo_download_paused_for_network : reachable=false
+@com.devb.english_test:string/exo_download_paused_for_wifi : reachable=false
+@com.devb.english_test:string/exo_download_removing : reachable=false
+@com.devb.english_test:string/status_bar_notification_info_overflow : reachable=false
+@com.devb.english_test:style/LaunchTheme : reachable=true
+    @com.devb.english_test:drawable/launch_background
+@com.devb.english_test:style/NormalTheme : reachable=true
+@com.devb.english_test:style/TextAppearance_Compat_Notification : reachable=false
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Info : reachable=false
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Info_Media : reachable=false
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Info
+    @com.devb.english_test:color/secondary_text_default_material_dark
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Line2 : reachable=false
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Info
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Line2_Media : reachable=false
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Info_Media
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Media : reachable=false
+    @com.devb.english_test:style/TextAppearance_Compat_Notification
+    @com.devb.english_test:color/secondary_text_default_material_dark
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Time : reachable=false
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Time_Media : reachable=false
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Time
+    @com.devb.english_test:color/secondary_text_default_material_dark
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Title : reachable=false
+@com.devb.english_test:style/TextAppearance_Compat_Notification_Title_Media : reachable=false
+    @com.devb.english_test:style/TextAppearance_Compat_Notification_Title
+    @com.devb.english_test:color/primary_text_default_material_dark
+@com.devb.english_test:style/Widget_Compat_NotificationActionContainer : reachable=false
+    @com.devb.english_test:drawable/notification_action_background
+@com.devb.english_test:style/Widget_Compat_NotificationActionText : reachable=false
+    @com.devb.english_test:color/androidx_core_secondary_text_default_material_light
+    @com.devb.english_test:dimen/notification_action_text_size
 
 The root reachable resources are:
  attr:activityAction:2130903040
@@ -3435,25 +3448,25 @@ Unused resources are:
  dimen:notification_subtext_size:2131034131
  dimen:notification_top_pad:2131034132
  dimen:notification_top_pad_large_text:2131034133
- drawable:ic_call_answer:2131099648
- drawable:ic_call_answer_low:2131099649
- drawable:ic_call_answer_video:2131099650
- drawable:ic_call_answer_video_low:2131099651
- drawable:ic_call_decline:2131099652
- drawable:ic_call_decline_low:2131099653
- drawable:notification_action_background:2131099655
- drawable:notification_bg:2131099656
- drawable:notification_bg_low:2131099657
- drawable:notification_bg_low_normal:2131099658
- drawable:notification_bg_low_pressed:2131099659
- drawable:notification_bg_normal:2131099660
- drawable:notification_bg_normal_pressed:2131099661
- drawable:notification_icon_background:2131099662
- drawable:notification_oversize_large_icon_bg:2131099663
- drawable:notification_template_icon_bg:2131099664
- drawable:notification_template_icon_low_bg:2131099665
- drawable:notification_tile_bg:2131099666
- drawable:notify_panel_notification_icon_bg:2131099667
+ drawable:ic_call_answer:2131099649
+ drawable:ic_call_answer_low:2131099650
+ drawable:ic_call_answer_video:2131099651
+ drawable:ic_call_answer_video_low:2131099652
+ drawable:ic_call_decline:2131099653
+ drawable:ic_call_decline_low:2131099654
+ drawable:notification_action_background:2131099656
+ drawable:notification_bg:2131099657
+ drawable:notification_bg_low:2131099658
+ drawable:notification_bg_low_normal:2131099659
+ drawable:notification_bg_low_pressed:2131099660
+ drawable:notification_bg_normal:2131099661
+ drawable:notification_bg_normal_pressed:2131099662
+ drawable:notification_icon_background:2131099663
+ drawable:notification_oversize_large_icon_bg:2131099664
+ drawable:notification_template_icon_bg:2131099665
+ drawable:notification_template_icon_low_bg:2131099666
+ drawable:notification_tile_bg:2131099667
+ drawable:notify_panel_notification_icon_bg:2131099668
  id:adjacent:2131165223
  id:always:2131165224
  id:alwaysAllow:2131165225
@@ -3529,91 +3542,91 @@ Unused resources are:
  style:TextAppearance_Compat_Notification_Title_Media:2131492875
  style:Widget_Compat_NotificationActionContainer:2131492876
  style:Widget_Compat_NotificationActionText:2131492877
-Skipped unused resource res/anim-v21/fragment_fast_out_extra_slow_in.xml: 230 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_close_enter.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_close_exit.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_fade_enter.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_fade_exit.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_open_enter.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_open_exit.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-v21/notification_action_background.xml: 2250 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_bg.xml: 751 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_bg_low.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_icon_background.xml: 314 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_tile_bg.xml: 319 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-ldpi-v4/ic_call_answer.png: 270 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-ldpi-v4/ic_call_answer_low.png: 270 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-ldpi-v4/ic_call_answer_video.png: 199 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-ldpi-v4/ic_call_answer_video_low.png: 199 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-ldpi-v4/ic_call_decline.png: 201 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-ldpi-v4/ic_call_decline_low.png: 201 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_answer.png: 317 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_low.png: 317 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_video.png: 206 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_video_low.png: 206 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_decline.png: 264 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_decline_low.png: 264 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png: 98 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_answer.png: 472 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_low.png: 472 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_video.png: 254 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_video_low.png: 254 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_decline.png: 375 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_decline_low.png: 375 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png: 909 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 107 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer.png: 623 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_low.png: 623 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_video.png: 290 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_video_low.png: 290 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_decline.png: 452 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_decline_low.png: 452 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png: 252 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer.png: 884 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_low.png: 884 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_video.png: 384 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_video_low.png: 384 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_decline.png: 628 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_decline_low.png: 628 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer.png: 1171 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_low.png: 1171 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_video.png: 465 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png: 465 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_decline.png: 823 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_decline_low.png: 823 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_answer.xml: 1515 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_low.xml: 1373 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_video.xml: 931 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_video_low.xml: 789 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_decline.xml: 1689 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_decline_low.xml: 1547 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/custom_dialog.xml: 828 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/ime_base_split_test_activity.xml: 365 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/ime_secondary_split_test_activity.xml: 1465 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_action.xml: 2216 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 2677 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_media_action.xml: 795 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_media_cancel_action.xml: 1103 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_big_media.xml: 3841 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_big_media_custom.xml: 8185 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_big_media_narrow.xml: 3929 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_big_media_narrow_custom.xml: 8357 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 6318 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 2432 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_lines_media.xml: 8386 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_media.xml: 2739 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_media_custom.xml: 7413 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_part_chronometer.xml: 643 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_part_time.xml: 630 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/anim-v21/fragment_fast_out_extra_slow_in.xml: 230 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/animator/fragment_close_enter.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/animator/fragment_close_exit.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/animator/fragment_fade_enter.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/animator/fragment_fade_exit.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/animator/fragment_open_enter.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/animator/fragment_open_exit.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable-v21/notification_action_background.xml: 2250 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/notification_bg.xml: 751 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/notification_bg_low.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/notification_icon_background.xml: 314 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/notification_tile_bg.xml: 319 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable-ldpi-v4/ic_call_answer.png: 270 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-ldpi-v4/ic_call_answer_low.png: 270 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-ldpi-v4/ic_call_answer_video.png: 199 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-ldpi-v4/ic_call_answer_video_low.png: 199 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-ldpi-v4/ic_call_decline.png: 201 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-ldpi-v4/ic_call_decline_low.png: 201 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/ic_call_answer.png: 317 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/ic_call_answer_low.png: 317 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/ic_call_answer_video.png: 206 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/ic_call_answer_video_low.png: 206 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/ic_call_decline.png: 264 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/ic_call_decline_low.png: 264 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png: 98 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/ic_call_answer.png: 472 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/ic_call_answer_low.png: 472 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/ic_call_answer_video.png: 254 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/ic_call_answer_video_low.png: 254 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/ic_call_decline.png: 375 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/ic_call_decline_low.png: 375 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/notification_bg_low_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png: 909 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 107 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/ic_call_answer.png: 623 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/ic_call_answer_low.png: 623 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/ic_call_answer_video.png: 290 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/ic_call_answer_video_low.png: 290 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/ic_call_decline.png: 452 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/ic_call_decline_low.png: 452 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png: 252 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/ic_call_answer.png: 884 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/ic_call_answer_low.png: 884 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/ic_call_answer_video.png: 384 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/ic_call_answer_video_low.png: 384 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/ic_call_decline.png: 628 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/ic_call_decline_low.png: 628 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxxhdpi-v4/ic_call_answer.png: 1171 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxxhdpi-v4/ic_call_answer_low.png: 1171 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxxhdpi-v4/ic_call_answer_video.png: 465 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png: 465 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxxhdpi-v4/ic_call_decline.png: 823 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxxhdpi-v4/ic_call_decline_low.png: 823 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-anydpi-v21/ic_call_answer.xml: 1515 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable-anydpi-v21/ic_call_answer_low.xml: 1373 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable-anydpi-v21/ic_call_answer_video.xml: 931 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable-anydpi-v21/ic_call_answer_video_low.xml: 789 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable-anydpi-v21/ic_call_decline.xml: 1689 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable-anydpi-v21/ic_call_decline_low.xml: 1547 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/custom_dialog.xml: 828 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/ime_base_split_test_activity.xml: 365 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/ime_secondary_split_test_activity.xml: 1465 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout-v21/notification_action.xml: 2216 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout-v21/notification_action_tombstone.xml: 2677 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_media_action.xml: 795 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_media_cancel_action.xml: 1103 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_big_media.xml: 3841 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_big_media_custom.xml: 8185 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_big_media_narrow.xml: 3929 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_big_media_narrow_custom.xml: 8357 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout-v21/notification_template_custom_big.xml: 6318 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout-v21/notification_template_icon_group.xml: 2432 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_lines_media.xml: 8386 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_media.xml: 2739 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_media_custom.xml: 7413 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_part_chronometer.xml: 643 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/layout/notification_template_part_time.xml: 630 bytes (replaced with small dummy file of size 9 bytes)

@@ -1,4 +1,0 @@
-#Mon Dec 30 11:05:01 BRT 2024
-base.0=C\:\\Users\\b\\Documents\\GitHub\\english_test\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
