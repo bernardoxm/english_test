@@ -28,7 +28,9 @@ com.devb.english_test.app-packageReleaseResources-26 /Users/bmac/Documents/Traba
 com.devb.english_test.app-packageReleaseResources-27 /Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/incremental/release/packageReleaseResources/stripped.dir
 com.devb.english_test.app-merged-not-compiled-resources-28 /Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/merged-not-compiled-resources/release
 com.devb.english_test.app-merged_res-29 /Users/bmac/Documents/Trabalho/english_test/build/app/intermediates/merged_res/release
-com.devb.english_test.app-packaged_res-30 /Users/bmac/Documents/Trabalho/english_test/build/audio_session/intermediates/packaged_res/release
-com.devb.english_test.app-packaged_res-31 /Users/bmac/Documents/Trabalho/english_test/build/just_audio/intermediates/packaged_res/release
-com.devb.english_test.app-packaged_res-32 /Users/bmac/Documents/Trabalho/english_test/build/path_provider_android/intermediates/packaged_res/release
-com.devb.english_test.app-packaged_res-33 /Users/bmac/Documents/Trabalho/english_test/build/sqflite_android/intermediates/packaged_res/release
+com.devb.english_test.app-packaged_res-30 /Users/bmac/Documents/Trabalho/english_test/build/app_settings/intermediates/packaged_res/release
+com.devb.english_test.app-packaged_res-31 /Users/bmac/Documents/Trabalho/english_test/build/audio_session/intermediates/packaged_res/release
+com.devb.english_test.app-packaged_res-32 /Users/bmac/Documents/Trabalho/english_test/build/connectivity_plus/intermediates/packaged_res/release
+com.devb.english_test.app-packaged_res-33 /Users/bmac/Documents/Trabalho/english_test/build/just_audio/intermediates/packaged_res/release
+com.devb.english_test.app-packaged_res-34 /Users/bmac/Documents/Trabalho/english_test/build/path_provider_android/intermediates/packaged_res/release
+com.devb.english_test.app-packaged_res-35 /Users/bmac/Documents/Trabalho/english_test/build/sqflite_android/intermediates/packaged_res/release

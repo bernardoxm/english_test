@@ -1,4 +1,6 @@
 import 'dart:convert';
+import 'package:connectivity_plus/connectivity_plus.dart';
+import 'package:english_test/widgets/error_load_widget.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:english_test/models/words_model.dart';
@@ -76,6 +78,26 @@ class WordListController extends ChangeNotifier {
   /// **📖 Busca detalhes da palavra na API**
  /// **📖 Busca detalhes da palavra na API**
 Future<void> fetchWordDetails(BuildContext context, String word) async {
+  var connectivityResult = await Connectivity().checkConnectivity();
+  
+  if (connectivityResult == ConnectivityResult.none) {
+    if (context.mounted) {
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          content: ErrorLoad(
+            message: "No internet connection. Please enable WiFi or mobile data.",
+            onRetry: () {
+              Navigator.pop(context);
+              fetchWordDetails(context, word); // Retry after enabling internet
+            },
+          ),
+        ),
+      );
+    }
+    return;
+  }
+
   try {
     final WordsModel wordDetails = await apiWordService.fetchWordDetails(word);
     final db = SqlDataBase();
@@ -98,21 +120,17 @@ Future<void> fetchWordDetails(BuildContext context, String word) async {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: const Text("Word not found"),
-          content: const Text("Try another word."),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: const Text("OK"),
-            ),
-          ],
+          content: ErrorLoad(
+            message: "Word not found. Please try a different word.",
+            onRetry: () {
+              Navigator.pop(context);
+            },
+          ),
         ),
       );
     }
-    hasError = true;
-    errorMessage = "Word not found: $e";
-    notifyListeners();
   }
 }
 
 }
+// Compare this snippet from lib/controller/favorite_controller.dart:

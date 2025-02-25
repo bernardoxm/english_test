@@ -15,13 +15,14 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = 'com.devb.english_test'
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace 'com.devb.english_test'
+    compileSdk flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+       
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     kotlinOptions {
@@ -30,10 +31,10 @@ android {
 
     defaultConfig {
         applicationId 'com.devb.english_test'
-        minSdkVersion 21  
-        targetSdkVersion 33
-        versionCode 1
-        versionName '1.0'
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 5
+        versionName '1.1.3'
     }
 
     signingConfigs {
@@ -45,7 +46,7 @@ android {
                     storePassword = keystoreProperties['storePassword']
                     keyAlias = keystoreProperties['keyAlias']
                     keyPassword = keystoreProperties['keyPassword']
-            } else {
+                } else {
                     println "⚠️  WARNING: Keystore file not found at: ${keystorePath}"
                 }
             }
@@ -54,7 +55,6 @@ android {
 
     buildTypes {
         release {
-            // Use the correct signing config
             signingConfig = signingConfigs.getByName('release')
         }
     }

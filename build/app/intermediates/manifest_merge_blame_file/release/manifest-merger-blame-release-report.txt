@@ -1,12 +1,12 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.devb.english_test"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="5"
+5    android:versionName="1.1.3" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-9        android:targetSdkVersion="33" />
+9        android:targetSdkVersion="34" />
 10    <!-- Permissão para acesso à internet -->
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/Users/bmac/Documents/Trabalho/english_test/android/app/src/main/AndroidManifest.xml:3:5-67
@@ -28,8 +28,8 @@
 20    </queries>
 21
 22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-22-->[com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/bmac/.gradle/caches/transforms-3/cac3bbb7a2a529f61d5a93d9cb50759b/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:5-79
-22-->[com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/bmac/.gradle/caches/transforms-3/cac3bbb7a2a529f61d5a93d9cb50759b/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:22-76
+22-->[:connectivity_plus] /Users/bmac/Documents/Trabalho/english_test/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+22-->[:connectivity_plus] /Users/bmac/Documents/Trabalho/english_test/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-76
 23
 24    <permission
 24-->[androidx.core:core:1.13.1] /Users/bmac/.gradle/caches/transforms-3/74c1895ee15d4a639000e095e1132bc7/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47

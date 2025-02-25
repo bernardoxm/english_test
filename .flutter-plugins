@@ -1,12 +1,14 @@
 # This is a generated file; do not edit or check into version control.
+app_settings=/Users/bmac/.pub-cache/hosted/pub.dev/app_settings-5.2.0/
 audio_session=/Users/bmac/.pub-cache/hosted/pub.dev/audio_session-0.1.23/
+connectivity_plus=/Users/bmac/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.3/
 just_audio=/Users/bmac/.pub-cache/hosted/pub.dev/just_audio-0.9.42/
 just_audio_web=/Users/bmac/.pub-cache/hosted/pub.dev/just_audio_web-0.4.13/
-path_provider=/Users/bmac/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+path_provider=/Users/bmac/.pub-cache/hosted/pub.dev/path_provider-2.0.15/
 path_provider_android=/Users/bmac/.pub-cache/hosted/pub.dev/path_provider_android-2.2.15/
 path_provider_foundation=/Users/bmac/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.1/
 path_provider_linux=/Users/bmac/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
-path_provider_windows=/Users/bmac/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+path_provider_windows=/Users/bmac/.pub-cache/hosted/pub.dev/path_provider_windows-2.0.7/
 sqflite=/Users/bmac/.pub-cache/hosted/pub.dev/sqflite-2.4.1/
 sqflite_android=/Users/bmac/.pub-cache/hosted/pub.dev/sqflite_android-2.4.0/
 sqflite_darwin=/Users/bmac/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1/

@@ -11725,6 +11725,14 @@ com.ryanheise.just_audio.AudioPlayer:
     public void onAudioSessionIdChanged(int)
     private static int[] shuffle(int,java.lang.Integer)
 com.ryanheise.just_audio.R
+com.spencerccf.app_settings.AppSettingsPlugin:
+    static synthetic void openAlarmSettings$default(com.spencerccf.app_settings.AppSettingsPlugin,io.flutter.plugin.common.MethodChannel$Result,boolean,int,java.lang.Object)
+    static synthetic void openAppLocaleSettings$default(com.spencerccf.app_settings.AppSettingsPlugin,io.flutter.plugin.common.MethodChannel$Result,boolean,int,java.lang.Object)
+    static synthetic void openAppSettings$default(com.spencerccf.app_settings.AppSettingsPlugin,io.flutter.plugin.common.MethodChannel$Result,boolean,int,java.lang.Object)
+    static synthetic void openBatteryOptimizationSettings$default(com.spencerccf.app_settings.AppSettingsPlugin,io.flutter.plugin.common.MethodChannel$Result,boolean,int,java.lang.Object)
+    static synthetic void openSettings$default(com.spencerccf.app_settings.AppSettingsPlugin,java.lang.String,io.flutter.plugin.common.MethodChannel$Result,boolean,int,java.lang.Object)
+    static synthetic void openSettingsWithIntent$default(com.spencerccf.app_settings.AppSettingsPlugin,android.content.Intent,io.flutter.plugin.common.MethodChannel$Result,boolean,int,java.lang.Object)
+com.spencerccf.app_settings.R
 com.tekartik.sqflite.Constant:
     static final java.lang.String CMD_GET
     static final java.lang.String ERROR_BAD_PARAM
@@ -11809,6 +11817,17 @@ com.tekartik.sqflite.operation.Operation:
 com.tekartik.sqflite.operation.OperationRunnable
 com.tekartik.sqflite.operation.SqlErrorInfo:
     public void <init>()
+dev.fluttercommunity.plus.connectivity.Connectivity:
+    static final java.lang.String CONNECTIVITY_BLUETOOTH
+    static final java.lang.String CONNECTIVITY_ETHERNET
+    static final java.lang.String CONNECTIVITY_MOBILE
+    static final java.lang.String CONNECTIVITY_NONE
+    static final java.lang.String CONNECTIVITY_OTHER
+    static final java.lang.String CONNECTIVITY_VPN
+    static final java.lang.String CONNECTIVITY_WIFI
+dev.fluttercommunity.plus.connectivity.ConnectivityBroadcastReceiver:
+    public static final java.lang.String CONNECTIVITY_ACTION
+dev.fluttercommunity.plus.connectivity.R
 io.flutter.Build$API_LEVELS
 io.flutter.Build
 io.flutter.BuildConfig
@@ -19215,7 +19234,7 @@ _COROUTINE.ArtificialStackFrames:
     private static synthetic void $r8$constructor$com$google$android$exoplayer2$source$dash$DashMediaSource$XsDateTimeParser()
     public static long copy()
     public static java.lang.StackTraceElement coroutineBoundary()
-    public static varargs androidx.core.view.SoftwareKeyboardControllerCompat createCompositeSequenceableLoader(com.google.android.exoplayer2.source.SequenceableLoader[])
+    public static varargs com.google.android.exoplayer2.source.SequenceableLoader createCompositeSequenceableLoader()
     public final com.google.android.exoplayer2.text.SubtitleDecoder createDecoder()
     public static com.google.common.collect.ImmutableList decode()
     public static androidx.lifecycle.LifecycleOwner get()
@@ -19458,7 +19477,7 @@ androidx.arch.core.internal.SafeIterableMap
 androidx.collection.ArrayMap$1:
     private static void $r8$constructor$androidx$collection$MapCollections()
     public void <init>(int)
-    public static synthetic io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 access$000()
+    public static synthetic io.flutter.plugin.localization.LocalizationPlugin$1 access$000()
     public static synthetic io.flutter.plugin.text.ProcessTextPlugin access$000()
     public static synthetic void access$000(androidx.collection.ArrayMap$1)
     public static synthetic java.util.Map access$100()
@@ -19484,7 +19503,7 @@ androidx.collection.ArrayMap$1:
     public static com.google.android.exoplayer2.source.dash.manifest.BaseUrl selectWeighted()
     public static void send()
     public static void setAccessibilityFeatures()
-    public final void setAccessibilityMessageHandler(io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1)
+    public final void setAccessibilityMessageHandler(io.flutter.plugin.localization.LocalizationPlugin$1)
     public static void setDeferredComponentManager()
     public static void setMethodHandler()
     public final java.lang.Object[] toArrayHelper(int)
@@ -19588,23 +19607,12 @@ androidx.core.view.SoftwareKeyboardControllerCompat$Impl30:
     public final android.view.View mView
 androidx.core.view.SoftwareKeyboardControllerCompat$Impl
 androidx.core.view.SoftwareKeyboardControllerCompat:
-    private static void $r8$constructor$androidx$core$view$SoftwareKeyboardControllerCompat()
     private static void $r8$constructor$androidx$core$view$WindowInsetsCompat$Builder()
-    private static void $r8$constructor$androidx$core$view$WindowInsetsControllerCompat()
     private static void $r8$constructor$androidx$media$AudioAttributesCompat$Builder()
     private static void $r8$constructor$androidx$media$AudioAttributesImplApi21$Builder()
-    private static synthetic void $r8$constructor$com$google$android$exoplayer2$audio$AudioAttributes$AudioAttributesV21()
-    private static void $r8$constructor$com$google$android$exoplayer2$audio$AudioAttributes$AudioAttributesV21$1()
-    private static synthetic void $r8$constructor$com$google$android$exoplayer2$audio$MediaCodecAudioRenderer$AudioSinkListener()
     private static void $r8$constructor$com$google$android$exoplayer2$extractor$Id3Peeker()
-    private static synthetic void $r8$constructor$com$google$android$exoplayer2$extractor$mkv$MatroskaExtractor$InnerEbmlProcessor()
-    private static void $r8$constructor$com$google$android$exoplayer2$source$hls$FullSegmentEncryptionKeyCache()
-    private static synthetic void $r8$constructor$com$google$android$exoplayer2$source$hls$HlsMediaPeriod$SampleStreamWrapperCallback()
     private static void $r8$constructor$com$google$android$exoplayer2$source$hls$TimestampAdjusterProvider()
     private static void $r8$constructor$com$google$android$exoplayer2$upstream$BandwidthMeter$EventListener$EventDispatcher()
-    private static synthetic void $r8$constructor$io$flutter$embedding$engine$FlutterEngineConnectionRegistry$DefaultFlutterAssets()
-    private static void $r8$constructor$io$flutter$embedding$engine$FlutterShellArgs()
-    private static synthetic void $r8$constructor$io$flutter$embedding$engine$dart$DartExecutor$DefaultBinaryMessenger()
     private static void $r8$constructor$io$flutter$embedding$engine$dart$DartMessenger$DefaultTaskQueueFactory()
     public void <init>(android.view.Window)
     public void <init>(java.util.ArrayList)
@@ -19614,19 +19622,29 @@ androidx.core.view.SoftwareKeyboardControllerCompat:
     public static void binaryElement()
     public static androidx.core.view.WindowInsetsCompat build()
     public static androidx.media.AudioAttributesCompat build()
+    public static void clearClient()
+    public static void finishAutofillContext()
     public static void floatElement()
     public final byte[] get(android.net.Uri)
     public static com.google.android.exoplayer2.util.TimestampAdjuster getAdjuster()
+    public final java.util.ArrayList getCapabilitiesFromNetwork(android.net.Network)
+    public static android.net.ConnectivityManager getConnectivityManager()
     public static int getElementType()
+    public static java.util.List getNetworkTypesLegacy()
+    public static int getOffsetAfter()
+    public static int getOffsetBefore()
+    public static void hide()
     public static void integerElement()
+    public final boolean isEmojiModifier(int)
+    public static boolean isEmojiModifierBase()
     public static boolean isLevel1Element()
+    public final boolean isRegionalIndicatorSymbol(int)
+    public static boolean isTagSpecChar()
     public static com.google.common.base.Splitter$SplittingIterator iterator()
     public static java.util.Iterator iterator()
     public static io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue makeBackgroundTaskQueue()
     public final void onAccessibilityChanged(boolean,boolean)
-    public final void onCancel()
     public static void onContinueLoadingRequested()
-    public static void onListen()
     public final void onOffloadBufferEmptying()
     public static void onOffloadBufferFull()
     public static void onPlaylistRefreshRequired()
@@ -19637,7 +19655,9 @@ androidx.core.view.SoftwareKeyboardControllerCompat:
     public final void put(android.net.Uri,byte[])
     public static byte[] remove()
     public static void removeWindowLayoutInfoListener()
+    public static void requestAutofill()
     public final void reset()
+    public static void sendAppPrivateCommand()
     public final void setAppearanceLightNavigationBars(boolean)
     public final void setAppearanceLightStatusBars(boolean)
     public static androidx.core.view.SoftwareKeyboardControllerCompat setContentType()
@@ -19647,6 +19667,7 @@ androidx.core.view.SoftwareKeyboardControllerCompat:
     public static androidx.core.view.SoftwareKeyboardControllerCompat setStableInsets()
     public static androidx.core.view.SoftwareKeyboardControllerCompat setSystemWindowInsets()
     public static androidx.core.view.SoftwareKeyboardControllerCompat setUsage()
+    public static void show()
     public static void startMasterElement()
     public static void stringElement()
     public static java.lang.String[] toArray()
@@ -20087,7 +20108,6 @@ androidx.window.java.core.CallbackToFlowAdapter:
     private static void $r8$constructor$com$google$android$exoplayer2$extractor$ts$TsExtractor$PatReader()
     private static void $r8$constructor$com$google$android$exoplayer2$metadata$emsg$EventMessageEncoder()
     private static void $r8$constructor$com$google$android$exoplayer2$upstream$HttpDataSource$RequestProperties()
-    private static void $r8$constructor$io$flutter$embedding$engine$systemchannels$KeyboardChannel$1()
     private static synthetic void $r8$constructor$io$flutter$plugin$common$BasicMessageChannel$IncomingMessageHandler()
     private static void $r8$constructor$io$flutter$plugin$mouse$MouseCursorPlugin()
     public void <init>(com.google.android.exoplayer2.util.FlagSet,android.util.SparseArray)
@@ -20887,13 +20907,13 @@ com.google.android.exoplayer2.MediaItem$RequestMetadata$Builder:
     private static void $r8$constructor$io$flutter$embedding$engine$systemchannels$SpellCheckChannel()
     private static void $r8$constructor$io$flutter$embedding$engine$systemchannels$TextInputChannel()
     public void <init>(androidx.collection.ArrayMap$1)
+    public static synthetic androidx.core.view.SoftwareKeyboardControllerCompat access$000()
     public static synthetic com.google.android.exoplayer2.MediaItem$RequestMetadata$Builder access$000()
     public static synthetic io.flutter.plugin.editing.SpellCheckPlugin access$000()
-    public static synthetic io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 access$000$1()
-    public static synthetic io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 access$000$1$1()
-    public static synthetic io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 access$000$2()
-    public static synthetic io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 access$000$3()
-    public static synthetic io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 access$000$4()
+    public static synthetic io.flutter.plugin.localization.LocalizationPlugin$1 access$000$1()
+    public static synthetic io.flutter.plugin.localization.LocalizationPlugin$1 access$000$1$1()
+    public static synthetic io.flutter.plugin.localization.LocalizationPlugin$1 access$000$2()
+    public static synthetic io.flutter.plugin.localization.LocalizationPlugin$1 access$000$3()
     public static java.lang.String access$100()
     public static synthetic java.util.concurrent.ConcurrentLinkedQueue access$200()
     public static synthetic java.util.concurrent.atomic.AtomicReference access$300()
@@ -20927,7 +20947,7 @@ com.google.android.exoplayer2.MediaItem$RequestMetadata$Builder:
     public static void newline()
     public static void next()
     public static void onCancel$1()
-    public static void onListen$1()
+    public static void onListen()
     public static void performPrivateCommand()
     public static void previous()
     public static int read()
@@ -25171,7 +25191,16 @@ com.ryanheise.just_audio.BetterEventChannel:
 com.ryanheise.just_audio.JustAudioPlugin$1:
     private static void onEngineWillDestroy$com$ryanheise$just_audio$JustAudioPlugin$1()
     private static void onEngineWillDestroy$io$flutter$embedding$engine$FlutterEngine$1()
-com.ryanheise.just_audio.MainMethodCallHandler
+com.spencerccf.app_settings.AppSettingsPlugin:
+    public static void handleOpenSettings()
+    public static void handleOpenSettingsPanel()
+    public static void openAlarmSettings()
+    public static void openAppLocaleSettings()
+    public static void openBatteryOptimizationSettings()
+    public static void openHotspotSettings()
+    public static void openNotificationSettings()
+    public final void openSettingsWithIntent(android.content.Intent,io.flutter.embedding.engine.systemchannels.RestorationChannel$1,boolean)
+    public static void openVpnSettings()
 com.tekartik.sqflite.Database$$InternalSyntheticLambda$3$0ae6f6b8e39afeef66ab44abd7883b3f318374984f0d98a0c41303ec3346ad92$0
 com.tekartik.sqflite.Database$$InternalSyntheticLambda$3$7d2214b45df0ec5b9dd9aed1abd0e617f74e35e4e3d14ef2f89db85a56bb3b99$0
 com.tekartik.sqflite.Database$$InternalSyntheticLambda$3$814b6c5e1cfafe3ca553bd23e9065115d0f5f1b34ba20b454430af8cf6cc1c2c$0
@@ -25268,6 +25297,19 @@ com.tekartik.sqflite.operation.Operation
 com.tekartik.sqflite.operation.QueuedOperation:
     public final com.tekartik.sqflite.operation.BaseReadOperation operation
     public static void run()
+dev.fluttercommunity.plus.connectivity.Connectivity
+dev.fluttercommunity.plus.connectivity.ConnectivityBroadcastReceiver$$InternalSyntheticLambda$3$c6a8023c16415755e6809a8ba5f39726ebc753e1e6cd3d1a6a80c5d344a95cb3$0
+dev.fluttercommunity.plus.connectivity.ConnectivityBroadcastReceiver$$InternalSyntheticLambda$4$079fc2b798153a286b693fdf89dd4dffcf4cbe1bdd1e70564ca78efb8a4dc9d6$0
+dev.fluttercommunity.plus.connectivity.ConnectivityBroadcastReceiver:
+    public static synthetic bridge androidx.core.view.SoftwareKeyboardControllerCompat -$$Nest$fgetconnectivity()
+    public static synthetic bridge void -$$Nest$msendEvent()
+    public static void sendCurrentStatusWithDelay()
+dev.fluttercommunity.plus.connectivity.ConnectivityMethodChannelHandler:
+    public static final synthetic boolean $assertionsDisabled
+    public static void <clinit>()
+dev.fluttercommunity.plus.connectivity.ConnectivityPlugin:
+    public static void setupChannels()
+    public static void teardownChannels()
 io.flutter.FlutterInjector$1
 io.flutter.FlutterInjector$Builder$NamedThreadFactory:
     public final synthetic io.flutter.FlutterInjector$Builder this$0
@@ -25675,7 +25717,6 @@ io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding:
     public static io.flutter.plugin.common.BinaryMessenger getBinaryMessenger()
     public static io.flutter.embedding.engine.FlutterEngine getFlutterEngine()
 io.flutter.embedding.engine.plugins.PluginRegistry
-io.flutter.embedding.engine.plugins.activity.ActivityAware
 io.flutter.embedding.engine.plugins.activity.ActivityControlSurface
 io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener
 io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
@@ -25767,7 +25808,15 @@ io.flutter.embedding.engine.renderer.SurfaceTextureSurfaceProducer
 io.flutter.embedding.engine.systemchannels.AccessibilityChannel$1
 io.flutter.embedding.engine.systemchannels.AccessibilityChannel$AccessibilityMessageHandler
 io.flutter.embedding.engine.systemchannels.AccessibilityChannel
-io.flutter.embedding.engine.systemchannels.BackGestureChannel$1
+io.flutter.embedding.engine.systemchannels.BackGestureChannel$1:
+    public static void clearFocus()
+    public static void create()
+    public static void dispose$1()
+    public static void offset()
+    public static void resize()
+    public static void setDirection()
+    public static void synchronizeToNativeViewHierarchy()
+    public static void touch()
 io.flutter.embedding.engine.systemchannels.BackGestureChannel:
     private static void $r8$constructor$io$flutter$embedding$engine$systemchannels$BackGestureChannel()
     private static void $r8$constructor$io$flutter$embedding$engine$systemchannels$NavigationChannel()
@@ -25787,7 +25836,6 @@ io.flutter.embedding.engine.systemchannels.KeyEventChannel:
     public static java.util.Map encodeKeyEvent()
     public static void sendFlutterKeyEvent()
     public static void sendMemoryPressureWarning()
-io.flutter.embedding.engine.systemchannels.KeyboardChannel$1
 io.flutter.embedding.engine.systemchannels.KeyboardChannel$KeyboardMethodHandler
 io.flutter.embedding.engine.systemchannels.KeyboardChannel
 io.flutter.embedding.engine.systemchannels.LifecycleChannel$1
@@ -25797,56 +25845,7 @@ io.flutter.embedding.engine.systemchannels.LifecycleChannel
 io.flutter.embedding.engine.systemchannels.LocalizationChannel$1
 io.flutter.embedding.engine.systemchannels.LocalizationChannel$LocalizationMessageHandler
 io.flutter.embedding.engine.systemchannels.LocalizationChannel
-io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1$$InternalSyntheticThrowCCEIfNotNull$39$03abef22fdb8f4620dcf2b69e7b159243dfb92f0bb99247bf100d86958adf60b$1
-io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1:
-    public static void announce()
-    public final void asyncWaitForVsync()
-    public static void clearClient()
-    public static void clearFocus()
-    public static boolean clipboardHasStrings()
-    public static void create()
-    public static void createForPlatformViewLayer()
-    public static void dispose$1()
-    public static void finishAutofillContext()
-    public final int getHeight()
-    public final long getId()
-    public static int getOffsetAfter()
-    public static int getOffsetBefore()
-    public final android.view.Surface getSurface()
-    public final int getWidth()
-    public static void hide()
-    public final boolean isEmojiModifier(int)
-    public static boolean isEmojiModifierBase()
-    public final boolean isRegionalIndicatorSymbol(int)
-    public static boolean isTagSpecChar()
-    public static android.view.Choreographer$FrameCallback obtainFrameCallback()
-    public static void offset()
-    public static void onFocus()
-    public static void onLongPress()
-    public static void onTap()
-    public static void onTooltip()
-    public static void popSystemNavigator()
-    public final void release()
-    public static void requestAutofill()
-    public static void resize()
-    public final void resize(int,int)
-    public static void restoreSystemUiOverlays()
-    public final void scheduleFrame()
-    public static void sendAppPrivateCommand()
-    public static void setApplicationSwitcherDescription()
-    public static void setClipboardData()
-    public static void setDirection()
-    public static void setFrameworkHandlesBack()
-    public static void setPreferredOrientations()
-    public static void setSystemUiChangeListener()
-    public static void setSystemUiOverlayStyle()
-    public static void share()
-    public static void show()
-    public static void synchronizeToNativeViewHierarchy()
-    public static void synchronizeToNativeViewHierarchy$1()
-    public static void touch()
-    public final void updateCustomAccessibilityActions()
-    public final void updateSemantics()
+io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1
 io.flutter.embedding.engine.systemchannels.MouseCursorChannel$MouseCursorMethodHandler
 io.flutter.embedding.engine.systemchannels.MouseCursorChannel
 io.flutter.embedding.engine.systemchannels.NavigationChannel$1
@@ -25932,7 +25931,7 @@ io.flutter.embedding.engine.systemchannels.RestorationChannel$1:
     private static void notImplemented$io$flutter$embedding$engine$systemchannels$RestorationChannel$1()
 io.flutter.embedding.engine.systemchannels.RestorationChannel$2
 io.flutter.embedding.engine.systemchannels.RestorationChannel:
-    public final io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 handler
+    public final io.flutter.embedding.engine.systemchannels.BackGestureChannel$1 handler
     public static synthetic byte[] access$002()
     public static void clearData()
     public static byte[] getRestorationData()
@@ -26000,7 +25999,6 @@ io.flutter.plugin.common.BinaryMessenger:
     public abstract com.google.android.exoplayer2.util.Log$Logger$1 makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
 io.flutter.plugin.common.EventChannel$1
 io.flutter.plugin.common.EventChannel$IncomingStreamRequestHandler
-io.flutter.plugin.common.EventChannel$StreamHandler
 io.flutter.plugin.common.EventChannel:
     private static void $r8$constructor$io$flutter$plugin$common$EventChannel()
     private static void $r8$constructor$io$flutter$plugin$common$EventChannel$1()
@@ -26012,7 +26010,6 @@ io.flutter.plugin.common.EventChannel:
     public static synthetic java.lang.String access$200()
     public static synthetic io.flutter.plugin.common.BinaryMessenger access$400()
     public static void invokeMethod()
-    public static void setStreamHandler()
 io.flutter.plugin.common.JSONMethodCodec:
     public static java.lang.Object unwrapNull()
 io.flutter.plugin.common.JSONUtil
@@ -26100,9 +26097,38 @@ io.flutter.plugin.editing.TextInputPlugin:
     public static void setTextInputEditingState()
     public static void showTextInput()
     public final void unlockPlatformViewInputConnection()
-io.flutter.plugin.localization.LocalizationPlugin$1
+io.flutter.plugin.localization.LocalizationPlugin$1$$InternalSyntheticThrowCCEIfNotNull$39$e95d8fd6ee1c92d642c047ac07c0dc76308826ab4483e14534aa801f539017c7$1
+io.flutter.plugin.localization.LocalizationPlugin$1:
+    public static void announce()
+    public final void asyncWaitForVsync()
+    public static boolean clipboardHasStrings()
+    public static void createForPlatformViewLayer()
+    public final int getHeight()
+    public final long getId()
+    public final android.view.Surface getSurface()
+    public final int getWidth()
+    public static android.view.Choreographer$FrameCallback obtainFrameCallback()
+    public static void onFocus()
+    public static void onLongPress()
+    public static void onTap()
+    public static void onTooltip()
+    public static void popSystemNavigator()
+    public final void release()
+    public final void resize(int,int)
+    public static void restoreSystemUiOverlays()
+    public final void scheduleFrame()
+    public static void setApplicationSwitcherDescription()
+    public static void setClipboardData()
+    public static void setFrameworkHandlesBack()
+    public static void setPreferredOrientations()
+    public static void setSystemUiChangeListener()
+    public static void setSystemUiOverlayStyle()
+    public static void share()
+    public static void synchronizeToNativeViewHierarchy()
+    public final void updateCustomAccessibilityActions()
+    public final void updateSemantics()
 io.flutter.plugin.localization.LocalizationPlugin:
-    public final io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 localizationMessageHandler
+    public final io.flutter.plugin.localization.LocalizationPlugin$1 localizationMessageHandler
     public static synthetic android.content.Context access$000()
     public static java.util.Locale resolveNativeLocale()
 io.flutter.plugin.mouse.MouseCursorPlugin$1
@@ -26130,7 +26156,7 @@ io.flutter.plugin.platform.PlatformPlugin$2$$InternalSyntheticLambda$2$98d424206
 io.flutter.plugin.platform.PlatformPlugin$3
 io.flutter.plugin.platform.PlatformPlugin$PlatformPluginDelegate
 io.flutter.plugin.platform.PlatformPlugin:
-    public final io.flutter.embedding.engine.systemchannels.MouseCursorChannel$1 mPlatformMessageHandler
+    public final io.flutter.plugin.localization.LocalizationPlugin$1 mPlatformMessageHandler
     public static synthetic com.google.android.exoplayer2.MediaItem$RequestMetadata$Builder access$1400()
     public static boolean clipboardHasStrings()
     public static void destroy()
@@ -26315,10 +26341,6 @@ io.flutter.plugin.text.ProcessTextPlugin:
     public final androidx.collection.ArrayMap$1 processTextChannel
     public static void cacheResolveInfos()
     public static boolean onActivityResult()
-    public final void onAttachedToActivity(android.support.v4.media.MediaDescriptionCompat$Builder)
-    public final void onDetachedFromActivity()
-    public static void onDetachedFromActivityForConfigChanges()
-    public static void onReattachedToActivityForConfigChanges()
 io.flutter.plugins.pathprovider.Messages$FlutterError
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$1
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$2
